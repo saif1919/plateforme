@@ -1,0 +1,39 @@
+<div class="modal fade contentmodal" id="editModal" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content doctor-profile">
+				<div class="modal-header">
+					<h3 class="mb-0">Edit Speciality test</h3>
+					<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+						<i class="feather-x-circle"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="https://doccure.dreamguystech.com/html/template/admin/specialities.html">
+						<div class="add-wrap">
+							<div class="form-group form-focus">
+								<input type="text" class="form-control floating" value={{specialite.nom}}>
+								<label class="focus-label">Speciality Name<span class="text-danger">*</span>
+								</label>
+							</div>
+							<div class="change-photo-btn">
+								<div>
+									<i class="feather-upload"></i>
+									<p>Upload File</p>
+								</div>
+								<input type="file" class="upload">
+								<span class="file-upload-text"></span>
+							</div>
+							<p class="file-name text-success">specialityimage.jpg
+								<a href="#" class="text-danger">
+									<i class="feather-x"></i>
+								</a>
+							</p>
+							<div class="submit-section">
+								<button type="submit" class="btn btn-primary btn-save">Save Changes</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>

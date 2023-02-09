@@ -82,165 +82,109 @@
 									<thead class="thead-light">
 										<tr>
 											<th>Id</th>
-				<th>Nom</th>
-				<th>Description</th>
-				<th>actions</th>
+											<th>Nom</th>
+											<th>Description</th>
+											<th>actions</th>
 										</tr>
 									</thead>
 									<tbody>
-											{% for specialite in specialites %}
-				<tr>
-					<td>{{ specialite.id }}</td>
-					<td>{{ specialite.nom }}</td>
-					<td>{{ specialite.description }}</td>
-				
-                    <td class="text-end">
-												<div class="actions">
-													<a class="text-black" href="{{ path('app_specialites_edit', {'id': specialite.id}) }}" data-bs-toggle="modal" data-bs-target="#editModal {{ specialite.id }}">
-														<i class="feather-edit-3 me-1"></i>
-														Edit
-													</a>
-													<a class="text-danger" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal">
-														<i class="feather-trash-2 me-1"></i>
-														Delete
-													</a>
-												</div>
-											</td>
-						{# <a >show</a>
-						<a href="{{ path('app_specialites_edit', {'id': specialite.id}) }}">edit</a>
-					</td> #}
-				</tr>
-			{% else %}
-				<tr>
-					<td colspan="4">no records found</td>
-				</tr>
-			{% endfor %}
-											
-										</tr>
+										{% for specialite in specialites %}
+											<tr>
+												<td>{{ specialite.id }}</td>
+												<td>{{ specialite.nom }}</td>
+												<td>{{ specialite.description }}</td>
+
+												<td class="text-end">
+													<div class="actions">
+														<a class="text-black" href="" data-bs-toggle="modal" data-bs-target="#editModal">
+															<i class="feather-edit-3 me-1"></i>
+															Edit
+														</a>
+														{% include ('modal/editmodal.html.twig') with {'specialite':specialite} %}
+														<a class="text-danger" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal">
+															<i class="feather-trash-2 me-1"></i>
+															Delete
+														</a>
+													</div>
+												</td>
+												{# <a >show</a>
+																		<a href="{{ path('app_specialites_edit', {'id': specialite.id}) }}">edit</a>
+																	</td> #}
+											</tr>
+										{% else %}
+											<tr>
+												<td colspan="4">no records found</td>
+											</tr>
+										{% endfor %}
 									</tbody>
-								</table>
-							</div>
-						</div>
+								</tr>
+							</tbody>
+						</table>
 					</div>
-					<div id="tablepagination" class="dataTables_wrapper"></div>
 				</div>
 			</div>
-
+			<div id="tablepagination" class="dataTables_wrapper"></div>
 		</div>
 	</div>
 
-
-	<div class="modal fade contentmodal" id="addModal" tabindex="-1" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content doctor-profile">
-				<div class="modal-header">
-					<h3 class="mb-0">Add Speciality</h3>
-					<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
-						<i class="feather-x-circle"></i>
-					</button>
-				</div>
-				<div class="modal-body">
-					<form action="https://doccure.dreamguystech.com/html/template/admin/specialities.html">
-						<div class="add-wrap">
-							<div class="form-group form-focus">
-								<input type="text" class="form-control floating">
-								<label class="focus-label">Speciality Name<span class="text-danger">*</span>
-								</label>
-							</div>
-							<div class="change-photo-btn">
-								<div>
-									<i class="feather-upload"></i>
-									<p>Upload File</p>
-								</div>
-								<input type="file" class="upload">
-							</div>
-							<p class="text-success">Successfully specialityimage.jpg uploaded
-								<a href="#" class="text-danger">
-									<i class="feather-x"></i>
-								</a>
-							</p>
-							<div class="submit-section">
-								<button type="submit" class="btn btn-primary btn-save">Save Changes</button>
-							</div>
+</div></div><div class="modal fade contentmodal" id="addModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+	<div class="modal-content doctor-profile">
+		<div class="modal-header">
+			<h3 class="mb-0">Add Speciality</h3>
+			<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+				<i class="feather-x-circle"></i>
+			</button>
+		</div>
+		<div class="modal-body">
+			<form action="https://doccure.dreamguystech.com/html/template/admin/specialities.html">
+				<div class="add-wrap">
+					<div class="form-group form-focus">
+						<input type="text" class="form-control floating">
+						<label class="focus-label">Speciality Name<span class="text-danger">*</span>
+						</label>
+					</div>
+					<div class="change-photo-btn">
+						<div>
+							<i class="feather-upload"></i>
+							<p>Upload File</p>
 						</div>
-					</form>
+						<input type="file" class="upload">
+					</div>
+					<p class="text-success">Successfully specialityimage.jpg uploaded
+						<a href="#" class="text-danger">
+							<i class="feather-x"></i>
+						</a>
+					</p>
+					<div class="submit-section">
+						<button type="submit" class="btn btn-primary btn-save">Save Changes</button>
+					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 	</div>
-
-
-	<div class="modal fade contentmodal" id="editModal" tabindex="-1" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content doctor-profile">
-				<div class="modal-header">
-					<h3 class="mb-0">Edit Speciality</h3>
-					<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+</div></div><div class="modal fade contentmodal" id="deleteModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+	<div class="modal-content doctor-profile">
+		<div class="modal-header border-bottom-0 justify-content-end">
+			<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+				<i class="feather-x-circle"></i>
+			</button>
+		</div>
+		<div class="modal-body">
+			<form action="https://doccure.dreamguystech.com/html/template/admin/specialities.html">
+				<div class="delete-wrap text-center">
+					<div class="del-icon">
 						<i class="feather-x-circle"></i>
-					</button>
+					</div>
+					<h2>Sure you Want to delete</h2>
+					<p>“Cardiolody”</p>
+					<div class="submit-section">
+						<button type="submit" class="btn btn-success me-2">Yes</button>
+						<a href="#" class="btn btn-danger" data-bs-dismiss="modal">No</a>
+					</div>
 				</div>
-				<div class="modal-body">
-					<form action="https://doccure.dreamguystech.com/html/template/admin/specialities.html">
-						<div class="add-wrap">
-							<div class="form-group form-focus">
-								<input type="text" class="form-control floating" value="Cardiology">
-								<label class="focus-label">Speciality Name<span class="text-danger">*</span>
-								</label>
-							</div>
-							<div class="change-photo-btn">
-								<div>
-									<i class="feather-upload"></i>
-									<p>Upload File</p>
-								</div>
-								<input type="file" class="upload">
-								<span class="file-upload-text"></span>
-							</div>
-							<p class="file-name text-success">specialityimage.jpg
-								<a href="#" class="text-danger">
-									<i class="feather-x"></i>
-								</a>
-							</p>
-							<div class="submit-section">
-								<button type="submit" class="btn btn-primary btn-save">Save Changes</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
+			</form>
 		</div>
 	</div>
-
-
-	<div class="modal fade contentmodal" id="deleteModal" tabindex="-1" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content doctor-profile">
-				<div class="modal-header border-bottom-0 justify-content-end">
-					<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
-						<i class="feather-x-circle"></i>
-					</button>
-				</div>
-				<div class="modal-body">
-					<form action="https://doccure.dreamguystech.com/html/template/admin/specialities.html">
-						<div class="delete-wrap text-center">
-							<div class="del-icon">
-								<i class="feather-x-circle"></i>
-							</div>
-							<h2>Sure you Want to delete</h2>
-							<p>“Cardiolody”</p>
-							<div class="submit-section">
-								<button type="submit" class="btn btn-success me-2">Yes</button>
-								<a href="#" class="btn btn-danger" data-bs-dismiss="modal">No</a>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-
-
-{% endblock %}
-
+</div></div></div>{% endblock %}
