@@ -1,5 +1,6 @@
 {% extends 'base.html.twig' %}
-{% block title %}Dashboard{% endblock %}
+{% block title %}Dashboard
+{% endblock %}
 {% block body %}
 	<div class="page-wrapper">
 		<div class="content">
@@ -112,247 +113,118 @@
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-6 col-xl-9" style="width: 50%;">
 					<div class="card">
-						<div class="card-body">
-							<div class="card top-departments">
-								<div class="card-header">
-									<h4 class="card-title mb-0">Top Departments</h4>
+						<div class="card-header">
+							<div class="row align-items-center">
+								<div class="col">
+									<h5 class="card-title">Popular by Speciality
+									</h5>
 								</div>
-								<div class="card-body">
-									<div class="activity-top">
-										<div class="activity-boxs comman-flex-center">
-											<img src="assets/img/icons/dep-icon-01.svg" alt="">
-										</div>
-										<div class="departments-list">
-											<h4>General Physician</h4>
-											<p>35%</p>
-										</div>
-									</div>
-									<div class="activity-top">
-										<div class="activity-boxs comman-flex-center">
-											<img src="assets/img/icons/dep-icon-02.svg" alt="">
-										</div>
-										<div class="departments-list">
-											<h4>Dentist</h4>
-											<p>24%</p>
-										</div>
-									</div>
-									<div class="activity-top">
-										<div class="activity-boxs comman-flex-center">
-											<img src="assets/img/icons/dep-icon-03.svg" alt="">
-										</div>
-										<div class="departments-list">
-											<h4>ENT</h4>
-											<p>10%</p>
-										</div>
-									</div>
-									<div class="activity-top">
-										<div class="activity-boxs comman-flex-center">
-											<img src="assets/img/icons/dep-icon-04.svg" alt="">
-										</div>
-										<div class="departments-list">
-											<h4>Cardiologist</h4>
-											<p>15%</p>
-										</div>
-									</div>
-									<div class="activity-top mb-0">
-										<div class="activity-boxs comman-flex-center">
-											<img src="assets/img/icons/dep-icon-05.svg" alt="">
-										</div>
-										<div class="departments-list">
-											<h4>Opthomology</h4>
-											<p>20%</p>
-										</div>
-									</div>
+								<div class="col-auto">
+									<select class="select">
+										<option>This Week</option>
+										<option>This Month</option>
+									</select>
 								</div>
 							</div>
-
 						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-12 col-lg-6 col-xl-3 d-flex" style="width: 50%;">
-					<div class="card">
-						<div class="card-body">
-							<div class="chart-title">
-								<h4>Patient by Department</h4>
-							</div>
-							<div id="donut-chart-dash" class="chart-user-icon">
-								<img src="assets/img/icons/user-icon.svg" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			 {% block datatable %}<div class="row">
-				<div class="col-12 col-md-12  col-xl-4"></div>
-
-			</div>
-			<div class="row">
-				<div class="col-12 col-xl-12">
-					<div class="card">
-						<div class="card-header pb-0">
-							<h4 class="card-title d-inline-block">Recent Patients
-							</h4>
-
-							<a href="patients.html" class="float-end patient-views">show all</a>
-						</div>
-						<div class="card-block table-dash">
+						<div class="card-body p-0">
 							<div class="table-responsive">
-								<table class="table datatable-basic dataTable no-footer" id="DataTables_Table_0" ="grid" aria-describedby="DataTables_Table_0_info">
-									<div class="top-nav-search mob-view">
-										<form>
-											<input type="text" class="form-control" placeholder="Search here">
-											<a class="btn"><img src="assets/img/icons/search-normal.svg" alt=""></a>
-										</form>
-									</div>
-									{# <table class="table mb-0 border-0 datatable custom-table"> #}
-
-									<thead>
-										<tr>
-											<th>
-												<div class="form-check check-tables">
-													<input class="form-check-input" type="checkbox" value="something">
-												</div>
-											</th>
-											<th>No</th>
-											<th>Patient name</th>
-											<th>Age</th>
-											<th>Date of Birth</th>
-											<th>Diagnosis</th>
-											<th>Triage</th>
-											<th></th>
-										</tr>
-									</thead>
+								<table class="table table-borderless">
 									<tbody>
-										<tr>
-											<td>
-												<div class="form-check check-tables">
-													<input class="form-check-input" type="checkbox" value="something">
+										<tr class="speciality-item">
+											<td class="spl-name">
+												<div class="spl-box">
+													<img src="{{ asset('/admin1/assets/img/icon/urology.png')}}" alt="User Image">
+												</div>
+												<div class="spl-count">
+													<h6>Urology</h6>
+													<p>Patients : 400</p>
 												</div>
 											</td>
-											<td>R00001</td>
-											<td class="table-image">
-												<img width="28" height="28" class="rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="">
-												<h2>Andrea Lalema</h2>
+											<td class="con-revenue">
+												<p class="text-muted">Revenue</p>
+												<h6>$6000K</h6>
 											</td>
-											<td>21</td>
-											<td>07 January 2002</td>
-											<td>Heart attack</td>
-											<td>
-												<button class="custom-badge status-green ">Non Urgent</button>
-											</td>
-											<td class="text-end">
-												<div class="dropdown dropdown-action">
-													<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-														<i class="fa fa-ellipsis-v"></i>
-													</a>
-													<div class="dropdown-menu dropdown-menu-end">
-														<a class="dropdown-item" href="edit-patient.html">
-															<i class="fa-solid fa-pen-to-square m-r-5"></i>
-															Edit</a>
-														<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_appointment">
-															<i class="fa fa-trash-alt m-r-5"></i>
-															Delete</a>
-													</div>
-												</div>
+											<td class="spl-consult">
+												<p class="text-muted">Consultations</p>
+												<h6>200</h6>
 											</td>
 										</tr>
-										<tr>
-											<td>
-												<div class="form-check check-tables">
-													<input class="form-check-input" type="checkbox" value="something">
+										<tr class="speciality-item">
+											<td class="spl-name">
+												<div class="spl-box">
+													<img src="{{ asset('/admin1/assets/img/icon/neurology.png')}}" alt="User Image">
+												</div>
+												<div class="spl-count">
+													<h6>Neurology</h6>
+													<p>Patients : 980
+													</p>
 												</div>
 											</td>
-											<td>R00002</td>
-											<td class="table-image">
-												<img width="28" height="28" class="rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="">
-												<h2>Mark Hay Smith</h2>
+											<td class="con-revenue">
+												<p class="text-muted">Revenue</p>
+												<h6>$6000K</h6>
 											</td>
-											<td>23</td>
-											<td>06 January 2002</td>
-											<td>Jaundice</td>
-											<td>
-												<button class="custom-badge status-pink">Emergency</button>
-											</td>
-											<td class="text-end">
-												<div class="dropdown dropdown-action">
-													<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-														<i class="fa fa-ellipsis-v"></i>
-													</a>
-													<div class="dropdown-menu dropdown-menu-end">
-														<a class="dropdown-item" href="edit-patient.html">
-															<i class="fa-solid fa-pen-to-square m-r-5"></i>
-															Edit</a>
-														<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_appointment">
-															<i class="fa fa-trash-alt m-r-5"></i>
-															Delete</a>
-													</div>
-												</div>
+											<td class="spl-consult">
+												<p class="text-muted">Consultations</p>
+												<h6>98</h6>
 											</td>
 										</tr>
-										<tr>
-											<td>
-												<div class="form-check check-tables">
-													<input class="form-check-input" type="checkbox" value="something">
+										<tr class="speciality-item">
+											<td class="spl-name">
+												<div class="spl-box">
+													<img src="{{ asset('/admin1/assets/img/icon/ortho.png')}}" alt="User Image">
+												</div>
+												<div class="spl-count">
+													<h6>Orthopedic</h6>
+													<p>Patients : 600</p>
 												</div>
 											</td>
-											<td>R00003</td>
-											<td class="table-image">
-												<img width="28" height="28" class="rounded-circle" src="assets/img/profiles/avatar-04.jpg" alt="">
-												<h2>Cristina Groves</h2>
+											<td class="con-revenue">
+												<p class="text-muted">Revenue</p>
+												<h6>$6000K</h6>
 											</td>
-											<td>25</td>
-											<td>10 January 2002</td>
-											<td>Malaria</td>
-											<td>
-												<button class="custom-badge status-gray">Out Patient</button>
-											</td>
-											<td class="text-end">
-												<div class="dropdown dropdown-action">
-													<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-														<i class="fa fa-ellipsis-v"></i>
-													</a>
-													<div class="dropdown-menu dropdown-menu-end">
-														<a class="dropdown-item" href="edit-patient.html">
-															<i class="fa-solid fa-pen-to-square m-r-5"></i>
-															Edit</a>
-														<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_appointment">
-															<i class="fa fa-trash-alt m-r-5"></i>
-															Delete</a>
-													</div>
-												</div>
+											<td class="spl-consult">
+												<p class="text-muted">Consultations</p>
+												<h6>78</h6>
 											</td>
 										</tr>
-										<tr>
-											<td>
-												<div class="form-check check-tables">
-													<input class="form-check-input" type="checkbox" value="something">
+										<tr class="speciality-item">
+											<td class="spl-name">
+												<div class="spl-box">
+													<img src="{{ asset('/admin1/assets/img/icon/cardio.png')}}" alt="User Image">
+												</div>
+												<div class="spl-count">
+													<h6>Urology</h6>
+													<p>Patients : 400</p>
 												</div>
 											</td>
-											<td>R00004</td>
-											<td class="table-image">
-												<img width="28" height="28" class="rounded-circle" src="assets/img/profiles/avatar-05.jpg" alt="">
-												<h2>Galaviz Lalema</h2>
+											<td class="con-revenue">
+												<p class="text-muted">Revenue</p>
+												<h6>$6000K</h6>
 											</td>
-											<td>21</td>
-											<td>09 January 2002</td>
-											<td>Typhoid</td>
-											<td>
-												<button class="custom-badge status-orange">Non Urgent</button>
+											<td class="spl-consult">
+												<p class="text-muted">Consultations</p>
+												<h6>65</h6>
 											</td>
-											<td class="text-end">
-												<div class="dropdown dropdown-action">
-													<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-														<i class="fa fa-ellipsis-v"></i>
-													</a>
-													<div class="dropdown-menu dropdown-menu-end">
-														<a class="dropdown-item" href="edit-patient.html">
-															<i class="fa-solid fa-pen-to-square m-r-5"></i>
-															Edit</a>
-														<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_appointment">
-															<i class="fa fa-trash-alt m-r-5"></i>
-															Delete</a>
-													</div>
+										</tr>
+										<tr class="speciality-item">
+											<td class="spl-name">
+												<div class="spl-box">
+													<img src="{{ asset('/admin1/assets/img/icon/dental.png')}}" alt="User Image">
 												</div>
+												<div class="spl-count">
+													<h6>Urology</h6>
+													<p>Patients : 400</p>
+												</div>
+											</td>
+											<td class="con-revenue">
+												<p class="text-muted">Revenue</p>
+												<h6>$6000K</h6>
+											</td>
+											<td class="spl-consult">
+												<p class="text-muted">Consultations</p>
+												<h6>59</h6>
 											</td>
 										</tr>
 									</tbody>
@@ -361,21 +233,287 @@
 						</div>
 					</div>
 				</div>
-			</div>{% endblock %}
-		</div>
-		<div class="notification-box">
-			<div class="msg-sidebar notifications msg-noti">
-				<div class="topnav-dropdown-header">
-					<span>Messages</span>
+				<div class="col-12 col-md-12 col-lg-6 col-xl-3 d-flex" style="width: 50%;">
+					<div class="card">
+						<div class="card-header">
+							<div class="row">
+								<div class="col">
+									<h5 class="card-title">Top Doctors</h5>
+								</div>
+							</div>
+						</div>
+						<div class="card-body p-0">
+							<div class="table-responsive">
+								<table class="table doc-table">
+									<tbody>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a class="avatar-pos avatar-online" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
+													<a href="#" class="user-name">
+														<span class="text-muted">Dr. Rayan</span>
+														<span class="tab-subtext">Gyanoclogist</span>
+													</a>
+												</h2>
+											</td>
+											<td>
+												<span class="table-rating">
+													<i class="fas fa-star me-2"></i>
+													4.5</span>
+											</td>
+											<td class="text-right">
+												<span class="text-muted">200 Patients</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a class="avatar-pos avatar-online" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-10.jpg" alt="User Image"></a>
+													<a href="#" class="user-name">
+														<span class="text-muted">Dr. Bea</span>
+														<span class="tab-subtext">Dentist</span>
+													</a>
+												</h2>
+											</td>
+											<td>
+												<span class="table-rating">
+													<i class="fas fa-star me-2"></i>
+													4.9</span>
+											</td>
+											<td class="text-right">
+												<span class="text-muted">180 Patients</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a class="avatar-pos avatar-offline" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-11.jpg" alt="User Image"></a>
+													<a href="#" class="user-name">
+														<span class="text-muted">Dr. Monroe</span>
+														<span class="tab-subtext">Hair Specialities</span>
+													</a>
+												</h2>
+											</td>
+											<td>
+												<span class="table-rating">
+													<i class="fas fa-star me-2"></i>
+													4.8</span>
+											</td>
+											<td class="text-right">
+												<span class="text-muted">160 Patients</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a class="avatar-pos avatar-offline" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-13.jpg" alt="User Image"></a>
+													<a href="#" class="user-name">
+														<span class="text-muted">Dr. Lester</span>
+														<span class="tab-subtext">Orthopaedics</span>
+													</a>
+												</h2>
+											</td>
+											<td>
+												<span class="table-rating">
+													<i class="fas fa-star me-2"></i>
+													4.7</span>
+											</td>
+											<td class="text-right">
+												<span class="text-muted">140 Patients</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a class="empty-user" href="profile.html">
+														<i class="feather-user"></i>
+													</a>
+													<a href="#" class="user-name">
+														<span class="text-muted">Dr. Clint</span>
+														<span class="tab-subtext">Neurology</span>
+													</a>
+												</h2>
+											</td>
+											<td>
+												<span class="table-rating">
+													<i class="fas fa-star me-2"></i>
+													4.6</span>
+											</td>
+											<td class="text-right">
+												<span class="text-muted">120 Patients</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="drop-scroll msg-list-scroll" id="msg_list"></div>
-				<div class="topnav-dropdown-footer">
-					<a href="chat.html">See all messages</a>
+			</div>
+			{% block datatable %}
+				<div class="row">
+					<div class="col-12 col-md-12  col-xl-4"></div>
+
+				</div>
+				<div class="row">
+					<div class="col-12 col-xl-12">
+						<div class="card">
+
+							<div class="card-header border-bottom-0">
+								<div class="row align-items-center">
+									<div class="col">
+										<h5 class="card-title">Recent Patient Activity</h5>
+									</div>
+									<div class="col-auto d-flex">
+										<div class="bookingrange btn btn-white btn-sm">
+											<div class="cal-ico">
+												<span>Select Date</span>
+												<i class="feather-chevron-down ms-1"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-body p-0">
+								<div class="table-responsive">
+									<table class="table table-borderless hover-table">
+										<thead class="thead-light">
+											<tr>
+												<th>ID</th>
+												<th>Patient</th>
+												<th>Disease</th>
+												<th>Member since
+												</th>
+												<th>Status</th>
+												<th class="text-right"></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>#4546</td>
+												<td>
+													<h2 class="table-avatar">
+														<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-07.jpg" alt="User Image"></a>
+														<a href="#" class="user-name">Bess Twishes
+															<span class="text-muted">Male, 40 Years Old</span>
+														</a>
+													</h2>
+												</td>
+												<td>
+													<span class="disease-name">Allergies & Asthma</span>
+												</td>
+												<td>
+													<span class="text-yellow user-name">New Patient</span>
+													<span class="d-block">23 Nov 2020</span>
+												</td>
+												<td>
+													<span class="badge bg-badge-grey text-success">
+														<i class="fas fa-circle me-1"></i>
+														Enabled</span>
+												</td>
+												<td class="text-right">
+													<i class="feather-chevron-right"></i>
+												</td>
+											</tr>
+											<tr>
+												<td>#8774</td>
+												<td>
+													<h2 class="table-avatar">
+														<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-04.jpg" alt="User Image"></a>
+														<a href="#" class="user-name">Bess Twishes
+															<span class="text-muted">Female,30 Years Old</span>
+														</a>
+													</h2>
+												</td>
+												<td>
+													<span class="disease-name">Sleep Problem</span>
+												</td>
+												<td>
+													<span class="text-danger user-name">Old Patient</span>
+													<span class="d-block">23 Nov 2020</span>
+												</td>
+												<td>
+													<span class="badge bg-badge-grey text-danger">
+														<i class="fas fa-circle me-1"></i>
+														Disabled</span>
+												</td>
+												<td class="text-right">
+													<i class="feather-chevron-right"></i>
+												</td>
+											</tr>
+											<tr>
+												<td>#4546</td>
+												<td>
+													<h2 class="table-avatar">
+														<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-02.jpg" alt="User Image"></a>
+														<a href="#" class="user-name">Abdul Aziz Lazis
+															<span class="text-muted">Male, 25 Years Old</span>
+														</a>
+													</h2>
+												</td>
+												<td>
+													<span class="disease-name">Tooth Pain</span>
+												</td>
+												<td>
+													<span class="text-danger user-name">Old Patient</span>
+													<span class="d-block">23 Nov 2020</span>
+												</td>
+												<td>
+													<span class="badge bg-badge-grey text-success">
+														<i class="fas fa-circle me-1"></i>
+														Enabled</span>
+												</td>
+												<td class="text-right">
+													<i class="feather-chevron-right"></i>
+												</td>
+											</tr>
+											<tr>
+												<td>#4546</td>
+												<td>
+													<h2 class="table-avatar">
+														<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
+														<a href="#" class="user-name">Alex Siauw
+															<span class="text-muted">Male, 29 Years Old</span>
+														</a>
+													</h2>
+												</td>
+												<td>
+													<span class="disease-name">Pain on knee</span>
+												</td>
+												<td>
+													<span class="text-yellow user-name">New Patient</span>
+													<span class="d-block">23 Nov 2020</span>
+												</td>
+												<td>
+													<span class="badge bg-badge-grey text-success">
+														<i class="fas fa-circle me-1"></i>
+														Enabled</span>
+												</td>
+												<td class="text-right">
+													<i class="feather-chevron-right"></i>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				{% endblock %}
+			</div>
+			<div class="notification-box">
+				<div class="msg-sidebar notifications msg-noti">
+					<div class="topnav-dropdown-header">
+						<span>Messages</span>
+					</div>
+					<div class="drop-scroll msg-list-scroll" id="msg_list"></div>
+					<div class="topnav-dropdown-footer">
+						<a href="chat.html">See all messages</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 
-{% endblock %}
+	{% endblock %}
 
