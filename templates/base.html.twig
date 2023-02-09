@@ -140,8 +140,8 @@
 					<div id="sidebar-menu" class="sidebar-menu">
 						<ul>
 							<li class="menu-title">Main</li>
-							<li class="submenu">
-								<a href="base.html.twig">
+							<li>
+								<a href="{{ path('app_test2') }}">
 									<span class="menu-side"><img src="assets/img/icons/menu-icon-01.svg" alt=""></span>
 									<span>
 										Dashboard
@@ -151,7 +151,7 @@
 
 							</li>
 							<li class="submenu">
-								<a href="#">
+								<a href="{{ path('app_list') }}">
 									<span class="menu-side"><img src="assets/img/icons/menu-icon-02.svg" alt=""></span>
 									<span>
 										Medecins
@@ -160,7 +160,7 @@
 								</a>
 								<ul style="display: none;">
 									<li>
-										<a href="doctors.html">Liste des Medecins</a>
+										<a href="{{ path('app_list') }}">Liste des Medecins</a>
 									</li>
 									<li>
 										<a href="add-doctor.html">Ajouter Medecin</a>
@@ -203,7 +203,7 @@
 								</a>
 								<ul style="display: none;">
 									<li>
-										<a href="departments.html">Liste de Spécialités</a>
+										<a href="{{ path('app_specialites_index')}}">Liste de Spécialités</a>
 									</li>
 									<li>
 										<a href="add-department.html">Ajouter Spécialité</a>
@@ -302,7 +302,6 @@
 
 <script src="{{ asset('admin1/assets/js/bootstrap.bundle.min.js') }}"></script>
 
-<script src="{{ asset('admin1/assets/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
 
 <script src="{{ asset('admin1/assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
 <script src="{{ asset('admin1/assets/plugins/datatables/datatables.min.js') }}"></script>
@@ -311,6 +310,15 @@
 <script src="{{ asset('admin1/assets/plugins/daterangepicker/daterangepicker.js') }}"></script>
 
 <script src="{{ asset('admin1/assets/plugins/select2/js/select2.min.js') }}"></script>
+
+<script src="{{ asset('admin1/assets/js/script.js') }}"></script>
+<script src="{{ asset('admin1/assets/js/jquery-3.6.0.min.js') }}"></script> 
+
+
+<script src="{{ asset('admin1/assets/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
+
+
+
 
 <script src="{{ asset('admin1/assets/js/script.js') }}"></script>
 </body><!-- Mirrored from preclinic.dreamguystech.com/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Jan 2023 19:19:21 GMT --></html>

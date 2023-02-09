@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use App\Repository\MedecinRepository;
+use App\Repository\UserRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -9,18 +11,18 @@ use Symfony\Component\Routing\Annotation\Route;
 class Test2Controller extends AbstractController
 {
     #[Route('/test2', name: 'app_test2')]
-    public function index(): Response
+    public function index(UserRepository $userRepository): Response
     {
         return $this->render('dashboard.html.twig', [
-            'controller_name' => 'Test2Controller',
+            'users' => $userRepository->findAll(),
         ]);
     }
 
     #[Route('/list', name: 'app_list')]
-    public function list(): Response
+    public function list(MedecinRepository $userRepository): Response
     {
         return $this->render('Medecin/index.html.twig', [
-            'controller_name' => 'Test2Controller',
+            'medecins' => $userRepository->findAll(),
         ]);
     }
 
