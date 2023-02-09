@@ -1,0 +1,7244 @@
+/* Defalt Css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Bootstape Defalt Css */
+.nav-link {
+    padding: 0;
+}
+
+/* Medinik Hero Section Start */
+
+/* Nav Section Start */
+.medinik-nav {
+    height: 64px;
+    padding: 40px 0px;
+    max-width: 1440px;
+}
+
+.medinik-nave-color {
+    color: #77829D !important;
+}
+
+a.nav-link.medinik-fonts.medinik-nave-color {
+    color: #77829D !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.medinik-fonts {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff !important;
+}
+
+.medinik-btn-color {
+    color: #FFFFFF;
+    background-color: #2AA7FF;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+    padding: 7px 22px;
+}
+
+.medinik-btn-color:hover {
+    color: #FFFFFF;
+    background-color: #27a1f8;
+}
+
+.medinik-p-color {
+    color: #77829D !important;
+}
+
+/* Medinik Hero Start */
+.medinik-hero-banner-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik-hero-absolute {
+    position: absolute;
+
+}
+
+.medinik-hero-relative {
+    position: relative;
+}
+
+.medinik-hero-banner .medinik-hero-banner-after img {
+    right: 0px;
+}
+
+.medinik-hero-banner .medinik-hero-banner-paragrape p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.medinik-hero-banner .medinik-hero-head-after {
+    top: -19px;
+}
+
+.medinik-hero-banner .medinik-hero-banner-Button {}
+
+/* medinik-hero-banner-project */
+.medinik-hero-banner-project .medinik-hero-banner-project-number {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik-testimonial-right {
+    left: 80px !important;
+
+}
+
+.medinik-hero-banner-project .medinik-hero-banner-project-contant {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+/* medinik-hero-banner-right */
+.medinik-hero-banner-right {
+    background: url("image/Ellipse3.html");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.medinik-hero-banner-right-doctor-banner img {
+    bottom: 47px;
+    right: 9px;
+    width: 43%;
+
+}
+
+.medinik-hero-banner-right-btn-icn button {
+    top: 115px;
+    left: -8px;
+    background: #fff;
+    padding: 9px 8px;
+    box-shadow: 0px 40px 40px -15px rgb(148 182 206 / 15%);
+    border-radius: 8px;
+}
+
+.medinik-hero-banner-right-btn {
+    left: 156;
+}
+
+.medinik-hero-banner-right-btn button {
+    background: #FFFFFF;
+    box-shadow: 0px 35px 45px -10px rgb(0 0 0 / 5%);
+    border-radius: 46px;
+    color: #FB4C2C;
+    padding: 0px 11px;
+    font-size: 38px;
+    left: 57px;
+}
+
+.medinik-hero-banner-right-SM-image img {
+    width: 28%;
+    right: 0px;
+}
+
+.medinik-hero-banner-right-btn-icn i {
+    color: #fff;
+    padding: 4px 4px;
+    background: #4CD080;
+    box-shadow: 0px 8px 15px rgb(76 208 128 / 30%);
+    border-radius: 4px;
+}
+
+.medinik-hero-banner-project ul {
+    margin-left: 32%;
+}
+
+.medinik-hero-banner-right-btn-icn span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+
+}
+
+.best-medical-treatment-right-p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2AA7FF;
+}
+
+/* Medinik Health Services Section Start */
+.medinik-health-services {
+    padding-top: 105px;
+    background-color: #FEFFFF;
+}
+
+.medinik-small-p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2AA7FF;
+}
+
+.medinik-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.825rem;
+    line-height: 140%;
+    text-align: center;
+    color: #1B3C74;
+}
+
+.medinik-health-services-card .icon-basic {
+    font-size: 40px;
+}
+
+.medinik-health-services-card .icon-1 {
+    color: #2AA7FF;
+}
+
+.card-body h3 {
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin-bottom: 17px;
+    font-weight: 400;
+}
+
+.card-body h3 a {
+    text-decoration: none;
+}
+
+a.read-more-btn-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.image img {
+    margin-top: -82px;
+    margin-left: -21px;
+    z-index: -1;
+}
+
+.medinik-health-services-card {
+    padding: 24px;
+    position: relative;
+
+}
+
+.medinik-health-services-card:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 45px 120px -15px rgb(190 205 216 / 35%);
+    transition: .5s;
+}
+
+.medinik-health-services {
+    position: relative;
+}
+
+.medinik-health-services-absolute {
+    position: absolute;
+}
+
+.medinik-health-services-absolute-one {
+    top: 1px;
+}
+
+.medinik-health-services-absolute-two {
+    right: 0px;
+    width: 83px;
+}
+
+.best-medical-treatment-left-image {
+    background: url("image/Bg.html");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.best-medical-treatment-left-image img {
+    width: 100%;
+}
+
+.best-medical-treatment-right-row img {
+    border-radius: 0px 48px 48px 48px;
+}
+
+.best-medical-treatment-left {
+    position: relative;
+}
+
+.Shape32 {
+    position: absolute;
+    right: 0;
+    bottom: 92px;
+    z-index: 10;
+}
+
+.Shape2 {
+    position: absolute;
+}
+
+/* medinik-testimonial */
+
+/* medinik-brand-emrgency start */
+.medinik-brand-emrgency {
+    background-image: url(image/Bgmain.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.medinik-brand-emrgency-bg {
+    background-image: url(image/BlurBg.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 288px 0px;
+    position: relative;
+}
+
+.medinik-brand-emrgency-aworde a {
+    font-size: 48px;
+    color: #FEC65C;
+    box-shadow: 0px 35px 75px -10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.medinik-brand-emrgency-aworde p {
+    font-size: 14px;
+}
+
+.medinik-brand-emrgency-position {
+    position: relative;
+}
+
+.medinik-brand-emrgency-bg .positioc {
+    position: absolute;
+    right: 100px;
+}
+
+.medinik-brand-emrgency-image-position {
+    position: relative;
+}
+
+.medinik-brand-emrgency-aworde {
+    width: 170px;
+    padding: 20px 28px;
+    position: absolute;
+    top: -150px;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 75px -10px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+}
+
+.medinik-brand-emrgency-image img {
+    width: 100%;
+}
+
+.medinik-brand-emrgency-image-position .img-1 {
+    position: absolute;
+    right: -13px;
+    top: -87px;
+}
+
+.medinik-brand-emrgency-right {
+    padding-top: 124px;
+}
+
+.medinik-brand-emrgency-bg .positioc {
+    position: absolute;
+    right: 14px;
+    top: 83px;
+}
+
+.medinik-brand-emrgency-right-button {
+    padding: 0px 1px;
+    background: #2AA7FF;
+    border-radius: 8px;
+}
+
+.medinik-brand-emrgency-right-button .col-lg-4 {
+    padding-top: 25px;
+}
+
+.medinik-brand-emrgency-right-button a {
+    font-size: 15px;
+    padding: 15px;
+    background: #3FB0FF;
+    border-radius: 47px;
+    color: #fff;
+}
+
+.medinik-brand-emrgency-right-button .col-lg-8 {
+    padding-top: 13px;
+}
+
+.medinik-brand-emrgency-right-button h5 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.medinik-brand-emrgency-right-button p {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.medinik-brand-emrgency-image-position .img-2 {
+    position: absolute;
+    left: -31px;
+    bottom: -72px;
+    z-index: 2;
+}
+
+.medinik-brand-emrgency-bottom .img-3 {
+    position: absolute;
+    bottom: -175px;
+    left: 0px;
+}
+
+.medinik-brand-emrgency-bottom .img-4 {
+    position: absolute;
+    bottom: -175px;
+    right: 0px;
+}
+
+/* From */
+.lable-form {
+    width: 100%;
+    height: 62px;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+    top: 16px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 20px;
+}
+
+/* From  */
+
+.medinik-from-container {
+    padding: 43px;
+    background: #FFFFFF;
+    box-shadow: 0px 45px 120px -20px rgb(0 0 0 / 8%);
+    border-radius: 16px;
+    margin-top: -82px;
+    position: relative;
+}
+
+.lable-form-all {
+    border: 0px solid red;
+    background: #F2F6F9;
+    border-radius: 8px;
+    padding-left: 20px;
+    height: 64px;
+    line-height: 64px;
+    margin: 11px 0px;
+
+}
+
+.lable-form-all-color {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.medinik-from-button a {
+    width: 100%;
+    background: #1B3C74;
+    border-radius: 8px;
+    padding: 18px 0px;
+}
+
+.medinik-from-button {
+    padding-top: 15px;
+}
+
+.medinik-from {
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.medinik-from-content {
+    position: relative;
+}
+
+.medinik-from-content img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.medinik-from-positon-img .img-5 {
+    position: absolute;
+    bottom: 85px;
+    right: 0px;
+    z-index: -1;
+}
+
+.img-6 {
+    position: absolute;
+    left: 0px;
+    bottom: 142px;
+
+}
+
+/* health-solution-icon */
+.health-solution-icon {
+    padding: 20px 22px;
+    border-radius: 40px;
+}
+
+.health-solution-icon-1 {
+    background: #EBF7FF;
+    color: #2AA7FF;
+}
+
+.health-solution-icon-2 {
+    background: #FFF2F0;
+    color: #FF684C;
+}
+
+.health-solution-icon-3 {
+    background: #EBFAF1;
+    color: #4CD080;
+}
+
+.health-solution-icon-4 {
+    background: #FFF7E6;
+    color: #FFB200;
+}
+
+.medinik-health-solution {
+    padding: 150px 0px;
+}
+
+.medinik-health-solution-left-main-img {
+    background-image: url(image/Bg2.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.medinik-health-solution-left-main-img {}
+
+.medinik-health-solution-left-img {
+    background-image: url(image/BlurBg1.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 59px 45px 0px 45px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.medinik-health-solution-left-img img {
+    /* position: absolute;
+    bottom: 0px;
+    right: 0px;*/
+    margin-top: 0px;
+}
+
+/* medinik-testimonial */
+.medinik-testimonial {
+    background-image: url(image/Bg2.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.medinik-testimonial-main {
+    background-image: url(image/BlurBg2.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px;
+    position: relative;
+}
+
+.medinik-testimonial-container {
+    position: relative;
+}
+
+.medinik-testimonial-icon {
+    font-size: 16px;
+}
+
+.medinik-testimonial-right {
+    margin-top: 99px;
+
+}
+
+.img-8 {
+    position: absolute;
+    top: 471px;
+}
+
+.medinik-expert-doctors-1st {
+    background-image: url(../images/doctor-bg.svg);
+    padding: 35px 35px 0px 35px;
+    border-radius: 8px;
+    transition: all .2s;
+}
+
+.medinik-expert-doctors-1st:hover {
+    background-image: url(../images/doctor-bg-hover.svg);
+}
+
+.medinik-expert-doctors-2nd {
+    background-image: url(image/Expart2.html);
+    padding: 35px 35px 0px 35px;
+    border-radius: 8px;
+}
+
+.medinik-bg-style {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.medinik-expert-doctors-3rd {
+    background-image: url(image/Expart3.html);
+
+    padding: 35px 35px 0px 35px;
+    border-radius: 8px;
+}
+
+.medinik-expert-doctors-position {
+    position: relative;
+}
+
+.medical-sc-icon {
+    position: absolute;
+    bottom: 42px;
+    left: 104px;
+
+}
+
+.medical-sc-icon ul {
+    list-style: none;
+    margin: 0;
+}
+
+.medinik-expert-doctors-position .medical-sc-icon {
+    opacity: 0;
+    transition: all 0.3s ease-out 0.5s;
+    transform: translateY(25px);
+    transition: transform .1s, opacity .1s, background .35s, color .35s;
+}
+
+.medinik-expert-doctors-position:hover .medical-sc-icon {
+    opacity: 1;
+    transform: translateY(0);
+
+
+}
+
+.medical-treatment-name-h2 {
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+
+.medinik-expert-doctors-position ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid-med .post-content {
+    margin-top: 0;
+}
+
+.medical-sc-icon a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    text-align: center;
+    color: #2AA7FF;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.07);
+    display: inline-block;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medical-sc-icon a:hover {
+    color: #fff;
+    background: #2AA7FF;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+.medinik-expert-doctors-position li {
+    margin: 0px 3px;
+}
+
+.medinik-author-widget {
+    text-align: center;
+}
+
+.medinik-author-widget img {
+    border-radius: 50%;
+    border: 3px solid #2AA7FF;
+}
+
+.medinik-author-widget h4 {
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.medinik-author-widget p {
+    font-size: 18px;
+}
+
+.psv-author-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.psv-author-social ul li {
+    margin: 0 7.5px;
+}
+
+/* medinik-from-positon-img */
+/* Anwsare */
+.medinik-general-answer {
+    background-color: #F5FFFD;
+}
+
+.medinik-general-answer-main {
+    background-image: url(image/BlurBg2.html);
+    padding-top: 141px;
+    padding-bottom: 191px;
+    position: relative;
+}
+
+.medinik-general-answer-icon-box {
+    margin: 0px 203px;
+    background: antiquewhite;
+}
+
+.medinik-general-answer-icon-box {
+    position: absolute;
+    left: -97px;
+    top: 20rem;
+}
+
+.medinik-general-answer-icon-box .row {
+    position: absolute;
+    left: -39px;
+    width: 363px;
+    background: #fff;
+    padding: 12px 2px;
+    box-shadow: 0px 25px 80px -10px rgb(0 0 0 / 8%);
+    border-radius: 8px;
+    top: -365px;
+}
+
+.medinik-general-answer-icon {
+    position: relative;
+}
+
+.block-image-position {
+    position: absolute;
+    right: 0px;
+    bottom: -165px;
+}
+
+.best-medical-treatment-right-h2 {
+    text-align: left;
+}
+
+.medinik-general-answer-icon-box-p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+
+}
+
+/* toggle */
+.accordion-item {
+    background-color: #fff;
+    border: none;
+}
+
+.accordion-item {
+    background-color: #fff0;
+
+}
+
+.accordion-button {
+    background-color: #fff0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #ffffff00;
+    box-shadow: none;
+}
+
+#collapseOne {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 5%) 0px 15px 40px -10px;
+    border-radius: 8px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(image/maynas.html);
+    transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+    background-image: url(image/plus.html);
+
+}
+
+button.accordion-button {
+    padding-left: 0px;
+}
+
+/******************************************************************************************
+        Accordion Menu CSS
+******************************************************************************************/
+#mayosis-sidemenu,
+#mayosis-sidemenu ul,
+#mayosis-sidemenu ul li,
+#mayosis-sidemenu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%
+}
+
+#mayosis-sidemenu {
+    width: 100%;
+    color: #fff;
+    margin-top: 30px
+}
+
+#mayosis-sidemenu ul ul {
+    display: none
+}
+
+.align-right {
+    float: right
+}
+
+#mayosis-sidemenu>ul>li>a {
+    padding: 13px 20px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1B3C74;
+}
+
+#mayosis-sidemenu>ul>li.active>a,
+#mayosis-sidemenu>ul>li.open>a,
+#mayosis-sidemenu>ul>li>a:hover {
+    color: var(--main-color);
+    background: transparent
+}
+
+.holder {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+
+#mayosis-sidemenu ul li.has-sub>a::after {
+    display: block;
+    position: absolute;
+    content: "\EA4E";
+    width: 5px;
+    height: 5px;
+    right: 20px;
+    z-index: 10;
+    top: 11.5px;
+    font-family: remixicon
+}
+
+#mayosis-sidemenu>ul>li.active>a>span::after,
+#mayosis-sidemenu>ul>li.open>a>span::after,
+#mayosis-sidemenu>ul>li>a:hover>span::after {
+    border-color: #eee
+}
+
+
+#mayosis-sidemenu ul ul li a {
+    cursor: pointer;
+    border-bottom: none;
+    padding: 10px 20px;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 16px;
+    background: 0 0 !important;
+    box-shadow: none;
+    line-height: 15px;
+    font-weight: 600;
+    color: #1B3C74;
+}
+
+#mayosis-sidemenu ul ul li.active>a,
+#mayosis-sidemenu ul ul li.open>a,
+#mayosis-sidemenu ul ul li:hover>a {
+    background: 0 0;
+    color: #1B3C74
+}
+
+#mayosis-sidemenu ul ul li:first-child>a {
+    box-shadow: none
+}
+
+#mayosis-sidemenu ul ul ul li a {
+    padding-left: 30px
+}
+
+#mayosis-sidemenu>ul>li>ul>li.last>a,
+#mayosis-sidemenu>ul>li>ul>li:last-child>a {
+    border-bottom: 0
+}
+
+#mayosis-sidemenu>ul>li>ul>li.last.open>a,
+#mayosis-sidemenu>ul>li>ul>li.open:last-child>a {
+    border-bottom: 1px solid #32373e
+}
+
+#mayosis-sidemenu>ul>li>ul>li.open:last-child>ul>li:last-child>a {
+    border-bottom: 0
+}
+
+#mayosis-sidemenu ul ul li.has-sub>a::after {
+    display: block;
+    position: absolute;
+    content: "\EA4E";
+    width: 5px;
+    height: 5px;
+    right: 20px;
+    z-index: 10;
+    top: 11.5px;
+    font-family: remixicon
+}
+
+#mayosis-sidemenu ul ul li.active>a::after,
+#mayosis-sidemenu ul ul li.open>a::after,
+#mayosis-sidemenu ul ul li>a:hover::after {
+    border-color: #fff
+}
+
+/*============================================
+                Mobile Burger
+ =========================================*/
+.burger {
+    border-radius: 4px;
+    z-index: 10;
+    margin-top: 0;
+    margin-left: 0;
+    list-style: none;
+    color: #fff;
+    position: relative;
+
+}
+
+.burger span {
+    position: relative;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -1.5px
+}
+
+.burger span,
+.burger span::before,
+.burger span::after {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: #1B3C74;
+    outline: 1px solid transparent;
+    -webkit-transition-property: background-color, -webkit-transform;
+    -moz-transition-property: background-color, -moz-transform;
+    -o-transition-property: background-color, -o-transform;
+    transition-property: background-color, transform;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.burger span::before,
+.burger span::after {
+    position: absolute;
+    content: ""
+}
+
+.burger span::before {
+    top: -6px
+}
+
+.burger span::after {
+    top: 6px
+}
+
+.burger.clicked span {
+    background-color: transparent !important
+}
+
+.burger.clicked span::before {
+    -webkit-transform: translateY(6px) rotate(45deg);
+    -moz-transform: translateY(6px) rotate(45deg);
+    -ms-transform: translateY(6px) rotate(45deg);
+    -o-transform: translateY(6px) rotate(45deg);
+    transform: translateY(6px) rotate(45deg)
+}
+
+.burger.clicked span::after {
+    -webkit-transform: translateY(-6px) rotate(-45deg);
+    -moz-transform: translateY(-6px) rotate(-45deg);
+    -ms-transform: translateY(-6px) rotate(-45deg);
+    -o-transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-6px) rotate(-45deg)
+}
+
+.burger.clicked span:before,
+.burger.clicked span:after {
+    background-color: #1B3C74
+}
+
+.burger:hover {
+    cursor: pointer
+}
+
+.overlaymobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99996;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden
+}
+
+.overlaymobile.show {
+    opacity: .15;
+    visibility: visible
+}
+
+.nav .nav-link {
+    padding: 0 1rem;
+}
+
+.mobile--nav-menu {
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 0;
+    overflow-y: auto;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: transform .55s cubic-bezier(.785, .135, .15, .86);
+    -moz-transition: transform .55s cubic-bezier(.785, .135, .15, .86);
+    -o-transition: transform .55s cubic-bezier(.785, .135, .15, .86);
+    transition: transform .55s cubic-bezier(.785, .135, .15, .86)
+}
+
+.mobile--nav-menu.show {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.mobile--nav-menu.show ul.main li {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1
+}
+
+/* bare */
+.medinik-blog-section {
+    position: relative;
+}
+
+.medinik-blog-section .medinik-health-services-card:hover {
+    box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.07);
+    border: 1px solid #fff;
+}
+
+.medinik-blog-position {
+    padding: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.medinik-health-services-card.medinik-blog-position img {
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.medinik-blog-position .card-body {
+    position: relative;
+    padding: 1rem 1.95rem;
+}
+
+.medinik-blog-date {
+    position: absolute;
+    top: -72px;
+    right: 30px;
+    background: #2AA7FF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.55rem;
+}
+
+span.blog-date-day {
+    font-family: var(--alt-font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+span.blog-date-month {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.card-body .post-author {
+    margin-bottom: 16px;
+}
+
+.card-body .post-author a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    text-transform: capitalize;
+}
+
+a.read-more-btn-link:hover,
+.card-body .post-author a:hover {
+    color: #2AA7FF;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.home-one-subscribe {
+    position: relative;
+}
+
+.HomeOneSubscribe {
+    padding: 11px;
+    background: #F2F6F9;
+    display: block;
+}
+
+.home-one-subscribe p {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+span.wpcf7-spinner {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+span.wpcf7-not-valid-tip {
+    position: absolute;
+    bottom: -27px;
+}
+
+.hos-email span input {
+    margin: 0;
+    height: 84px;
+}
+
+.medinik-footeer-Subscribe-icon {
+    padding-bottom: 25px;
+    padding-top: 29px;
+    border: none !important;
+    background: #F2F6F9;
+    color: #77829D;
+    padding-left: 33px;
+}
+
+.medinik-footeer-Subscribe-input {
+    z-index: 0;
+    background: #F2F6F9;
+    border: none !important;
+    color: #77829D;
+    padding-left: 33px;
+    width: 87%;
+}
+
+.medinik-footeer-Subscribe-button {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: -6px !important;
+    z-index: 1;
+}
+
+.medinik-footeer-Subscribe-button a {
+    text-decoration: none;
+}
+
+.medinik-footeer-Subscribe-button span {
+    padding: 16px 32px;
+    margin-left: -133px;
+    background: #2AA7FF;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.medinik-footeer-Subscribe {
+    padding: 33px 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 140px -15px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+.medinik-footeer {
+    background-image: url(image/Bgmain1.html);
+}
+
+.medinik-top-footer-left li a {
+    color: #77829D;
+    background: #fff;
+    padding: 22px 24px;
+    border-radius: 37px;
+}
+
+.medinik-top-footer-left a:hover {
+    background: #2AA7FF;
+    color: #fff;
+    box-shadow: 0px 10px 20px rgba(42, 167, 255, 0.2);
+}
+
+.medinik-top-footer-left ul {
+    padding-left: 0px;
+}
+
+.medinik-top-footer-left-h {
+    position: relative;
+}
+
+.medinik-top-footer-left-h img {
+    position: absolute;
+    top: -83px;
+    left: -12px;
+}
+
+.medinik-top-footer {
+    padding-top: 13rem;
+}
+
+.day-color {
+    display: block;
+    color: #2AA7FF;
+}
+
+.medinik-footer-main {
+    background-image: url(image/Bg3.html);
+}
+
+.medinik-footer-bottom {
+    border-top: 1px solid #E0E6EB;
+
+}
+
+.medinik-top-footer-left-menu li {
+    padding: 11px 0px;
+}
+
+#collapseTwo {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 5%) 0px 15px 40px -10px;
+    border-radius: 8px;
+}
+
+.accordion-header a {
+    padding-left: 0px;
+}
+
+
+#collapseFour {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 5%) 0px 15px 40px -10px;
+    border-radius: 8px;
+}
+
+#collapseThree {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 5%) 0px 15px 40px -10px;
+    border-radius: 8px;
+}
+
+.medinik-general-answer-img-position {
+    position: relative;
+}
+
+.answer-main-img {
+    border-radius: 8px;
+}
+
+.medinik-expert-doctors {
+    position: relative;
+}
+
+.img-expert-1 {
+    right: 102px;
+    position: absolute;
+    right: 34px;
+}
+
+.img-expert-2 {
+    position: absolute;
+    left: 79px;
+    bottom: 192px;
+    bottom: 0px;
+}
+
+.img-Answer-2 {
+    position: absolute;
+    right: 133px;
+    right: 1px;
+    top: 67px;
+}
+
+.img-Answer-1 {
+    position: absolute;
+
+    bottom: -95px;
+    left: 0px;
+
+}
+
+.img-blog-1 {
+    position: absolute;
+    right: 96px;
+    bottom: 0px;
+}
+
+.img-blog-2 {
+    position: absolute;
+}
+
+
+
+/* Desktop View */
+@media screen and (min-width: 981px) and (max-width: 5000px) {
+    .medinik-hero-banner .medinik-hero-banner-heading h2 {
+        font-size: 84px;
+    }
+
+    .medinik-heading {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        line-height: 140%;
+
+    }
+
+    .medinik-hero-banner-project ul {
+        margin-left: 0;
+    }
+
+    .medinik-hero-banner .medinik-hero-head-after {
+        top: 86px;
+    }
+
+    .medinik-hero-banner-right-btn-icn button {
+        top: 199px;
+
+    }
+
+    .medinik-hero-banner .medinik-hero-banner-after img {
+        right: 80px;
+
+    }
+
+    .medinik-btn-color {
+        padding: 20px 49px;
+    }
+
+    .medinik-health-services-absolute-one {
+        top: 159px;
+        left: 150px;
+    }
+
+    .best-medical-treatment-left-image img {
+        width: 100%;
+        transform: rotate(10deg);
+        transform-origin: bottom right;
+    }
+
+    .best-medical-treatment-right {
+        margin-left: 108px;
+    }
+
+    .best-medical-treatment-top {
+        padding-top: 100px;
+    }
+
+    .medinik-brand-emrgency-image-position .img-1 {
+        position: absolute;
+        right: -87px;
+        top: -97px;
+    }
+
+    .medinik-brand-emrgency-aworde {
+        width: 170px;
+        background-color: #fff;
+        padding: 20px 28px;
+        position: absolute;
+        top: -56px;
+        left: -51px;
+    }
+
+    .medinik-brand-emrgency-right {
+        padding-top: 0px;
+    }
+
+    .medinik-brand-emrgency-bg {
+        padding: 165px 0px 627px 0px;
+    }
+
+    .medinik-brand-emrgency-right {
+        padding-left: 127px;
+    }
+
+    .medinik-brand-emrgency-right-button a {
+        font-size: 21px;
+        padding: 25px;
+
+    }
+
+    .medinik-brand-emrgency-right-button h5 {
+        font-size: 24px;
+
+    }
+
+    .medinik-brand-emrgency-right-button p {
+        font-size: 18px;
+    }
+
+    .medinik-brand-emrgency-right-button {
+        padding: 23px 1px;
+    }
+
+    .medinik-brand-emrgency-bottom .img-3 {
+        position: absolute;
+        bottom: -438px;
+        left: -92px;
+    }
+
+    .medinik-brand-emrgency-bottom .img-4 {
+        position: absolute;
+        bottom: -438px;
+        right: -92px;
+    }
+
+    .medinik-from-container {
+        padding: 100px;
+        margin-top: -276px;
+    }
+
+    .medinik-from-positon-img {}
+
+    .medinik-from-positon-img .img-5 {
+        bottom: -97px;
+        right: -97px;
+
+    }
+
+    .img-6 {
+        left: 67px;
+        bottom: 329px;
+    }
+
+    .medinik-health-solution-right {
+        padding-left: 69px;
+    }
+
+    .medinik-health-solution-left-img {
+        padding: 11px 45px 0px 45px;
+    }
+
+    .medinik-health-solution-left-img img {
+        margin-top: -39px;
+    }
+
+    .medinik-testimonial-right {
+        padding-left: 100px;
+
+    }
+
+    .medinik-general-answer-icon-box .row {
+        left: -186px;
+        top: 0px;
+    }
+
+    .block-image-position {
+        bottom: -149px;
+    }
+
+    .img-expert-1 {
+        right: 102px;
+    }
+
+    .img-expert-2 {
+        bottom: 192px;
+    }
+
+    .img-Answer-2 {
+        right: 133px;
+    }
+
+    .img-Answer-1 {
+        bottom: -10px;
+        left: -61px;
+    }
+
+    .img-blog-1 {
+        position: absolute;
+        right: 96px;
+        bottom: 173px;
+    }
+
+    .img-blog-2 {
+        top: 21rem;
+        left: 4rem;
+    }
+}
+
+@media screen and (min-width: 982px) and (max-width: 1375px) {
+    .medinik-hero-banner .medinik-hero-banner-after img {
+        right: 10px;
+
+    }
+}
+
+/* 2 */
+/* Medinik Hero Start */
+
+
+.medinik-hero-absolute {
+    position: absolute;
+
+}
+
+/* global h2 */
+.medinik-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik-hero-relative {
+    position: relative;
+}
+
+.medinik-hero-banner .medinik-hero-banner-after img {
+    right: 0px;
+    z-index: -1;
+}
+
+.medinik-hero-banner .medinik-hero-head-after {
+    top: -19px;
+}
+
+
+.active-itme {
+    color: #fff;
+}
+
+.medinik-hero-banner-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.34rem;
+
+    line-height: 140%;
+}
+
+.medinik-hero-banner .medinik-hero-banner-paragrape p {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    color: #ACC4EC;
+    font-size: 1.2rem;
+    ;
+}
+
+.medinik2-hero-bg {
+    position: relative;
+}
+
+.medinik2-img1 {
+    position: absolute;
+    width: 50%;
+}
+
+.main-image-hero-img {
+    margin-top: -133px;
+}
+
+.medinik2-bottompart::after {
+    width: 50%;
+    height: 100px;
+    background: #fff;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    margin-left: auto;
+    border-radius: 16px 0px 0px 0px;
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.medinik2-bottompart-zindex {
+    z-index: 10;
+    position: relative;
+}
+
+.medinik2-bottompart-position {
+    position: absolute;
+    top: -92px;
+    width: 566px;
+    left: 39px;
+}
+
+.medinik2-bottompart-container {
+    z-index: 15;
+}
+
+.medinik2-bottompart-icone {
+    color: #fff;
+    padding: 14px 14px;
+    border-radius: 8px;
+}
+
+.medinik2-bottompart-content h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik2-bottompart-icone-bg {
+    background-color: #FFB200;
+}
+
+.medinik2-bottompart-icone-bg2 {
+    background-color: #4CD080
+}
+
+.medinik2-aboutus-right {
+    position: relative;
+}
+
+.medinik2-image-1 {
+    border-radius: 8px;
+}
+
+.medinik2-image-3 {
+    border-radius: 8px;
+}
+
+/* main-herosection-end */
+/* About Section start */
+.medinik2-aboutus {
+    padding: 200px 0px 150px 0px;
+}
+
+.aboutus-clint {
+    border: 2px solid #EDEFF2;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.medinik2-image-4 {
+    position: absolute;
+    right: 154px;
+    top: 66px;
+    border-radius: 51px;
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.medinik2-image-2 {
+    position: absolute;
+    top: -66px;
+}
+
+.best-medical-treatment-right-p {
+    font-weight: 400;
+
+    line-height: 150%;
+    color: #2AA7FF;
+}
+
+.accordionbx-shadow-mef .elementor-tab-content {
+    box-shadow: 0px 15px 40px -10px rgba(0, 0, 0, 0.05);
+}
+
+.accordionbx-shadow-mef .elementor-tab-content p {
+    margin-bottom: 0;
+}
+
+/* About Section End */
+/* Our Services Start */
+.medinik2-searvice-bg {
+    background: #F5FBFF;
+    border-radius: 8px;
+}
+
+.medinik2-icon {
+    padding: 16px;
+    background: #2AA7FF;
+    box-shadow: 0px 20px 35px -10px rgba(0, 0, 0, 0.05);
+    border-radius: 28px;
+    color: #fff;
+}
+
+.medinik2-h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik2-health-services-card:hover {
+    background: #2AA7FF;
+    transform: translatey(-1.5in);
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem !important;
+    transition: 1s;
+    border-radius: 8px;
+    position: absolute;
+    width: 290px;
+}
+
+.medinik2-health-services-card:hover p {
+    color: #fff;
+}
+
+.medinik2-health-services-card:hover h3 {
+    color: #fff;
+}
+
+.medinik2-health-services-card:hover a {
+    color: #fff;
+    display: block !important;
+}
+
+.medinik2-health-services-card:hover .medinik2-icon {
+    background-color: #fff;
+    color: #2AA7FF;
+}
+
+.medinik2-main-padding {
+    padding: 200px 0px 150px 0px;
+}
+
+/* Our Services End */
+/* Cpt Start */
+.medinik2-cta p {
+    padding: 0px 300px 0px 300px;
+}
+
+.medinik2-cta-right a span {
+    background: #1B3C74;
+    box-shadow: 0px 25px 35px -10px rgba(27, 60, 116, 0.15);
+    border-radius: 8px;
+}
+
+.medinik2-cta h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8.4rem;
+    line-height: 140%;
+    text-align: center;
+    color: #1B3C74;
+}
+
+.medinik2-cta h1 span {
+    color: #2AA7FF;
+}
+
+.medinik2-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.medinik2-cta {
+    background-image: url(image/Bg8.html);
+}
+
+.medinik2-cta-main {
+    background-image: url(image/AbstractBg.html);
+}
+
+/* cpt Edn */
+/* why chooice us */
+.medinik2-left-border {
+    border-left: 2px solid #2AA7FF;
+    padding-left: 5px;
+}
+
+.medinik2-whychooseus-left-card {
+    background: #FFFFFF;
+    border: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.medinik2-whychooseus-left-card:hover {
+    border: 1px solid #fff;
+    box-shadow: 0px 25px 70px -10px rgba(0, 0, 0, 0.07);
+
+}
+
+.medinik2-whychooseus-color-1 {
+    background: #FFB200;
+}
+
+.medinik2-whychooseus-color-2 {
+    background: #EBFAF1;
+    color: #4CD080;
+}
+
+.medinik2-whychooseus-color-3 {
+    background: #FFF2F0;
+    color: #FF684C;
+}
+
+.medinik2-whychooseus-right {
+    position: relative;
+}
+
+.medinik2-whychooseus-right-1 {
+    position: absolute;
+    left: -49px;
+    top: -27px;
+}
+
+.medinik2-whychooseus-left-card-1 {
+    position: relative;
+}
+
+.medinik2-whychooseus-left-card-1 .row {
+    position: absolute;
+    right: -82px;
+    margin-left: -18px;
+}
+
+.medinik2-whychooseus-right {
+    z-index: -1;
+}
+
+.medinik2-whychooseus-container .row {}
+
+.medinik2-whychooseus-button {
+    position: relative;
+}
+
+.medinik2-whychooseus-button a {
+    bottom: -374px;
+    position: absolute;
+}
+
+/* why choice us end */
+/* Our Theme  */
+
+.medinik2-team-slider ul {
+    padding-left: 0px;
+    display: flex;
+}
+
+.medinik2-pd {
+    padding: 0px 9px 0px 22px;
+    background: #FFFFFF;
+    border: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    box-shadow: 0px 35px 75px -10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    height: 291px;
+    margin: 56px 16px 68px 15px;
+
+}
+
+.medinik2-parson-image {
+    margin-top: -54px;
+    position: relative;
+}
+
+.medinik2-border-bottom {
+    border-bottom: 1px solid #EDEFF2;
+}
+
+.medinik2-border-right {
+    border-right: 1px solid #EDEFF2;
+}
+
+.medinik2-pd-top {
+
+    padding-top: 16px;
+
+}
+
+.medinik2-team-slider ul a {
+    padding: 0 3px;
+    color: #77829D;
+}
+
+.medinik2-team-slider ul a:hover {
+    color: #2AA7FF;
+    ;
+}
+
+.best-medical-treatment-right-h2 {
+    padding-bottom: 10px;
+}
+
+.medinik2-parson-image-1 {
+    position: absolute;
+    right: -9px;
+    top: 9px;
+}
+
+.medinik2-border-bottom-img {
+    width: 119px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* Table */
+.medinik2-price-table {
+    background-image: url(image/Bg10.html);
+    position: relative;
+}
+
+.medinik2-price-img-2 {
+    position: absolute;
+}
+
+.medinik2-price-img-3 {
+    position: absolute;
+    right: 9%;
+}
+
+.medinik2-price-img-4 {
+    position: absolute;
+    right: 4%;
+    bottom: 97px;
+}
+
+.fieldset {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 45px -10px rgba(0, 0, 0, 0.06);
+    border-radius: 1px;
+    border-radius: 12px;
+}
+
+.cd-pricing-features li:nth-of-type(2n+1) {
+    background-color: #fff;
+}
+
+.cd-pricing-wrapper {
+    margin: 20px;
+}
+
+.cd-pricing-wrapper {
+    /* this is the item that rotates */
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px -10px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+}
+
+.cd-pricing-wrapper .medinik2-whychooseus-color-1 {
+    background: #EBF7FF;
+    color: #2AA7FF;
+    border-radius: 57px;
+    padding: 36px;
+}
+
+.no-touch .cd-popular .cd-select {
+    background-color: #3caefe;
+    color: #fff;
+}
+
+.no-touch .cd-popular .cd-select:hover {
+    background-color: #3caefe;
+}
+
+.cd-pricing-header h2 {
+    color: #1b3c74;
+}
+
+.cd-price span {
+    color: #1b3c74;
+}
+
+.cd-pricing-body .cd-pricing-features {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.medinik2-price-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFB200;
+
+}
+
+.cd-pricing-container {
+
+    position: relative;
+
+}
+
+.medinik2-price-table-position {
+    position: absolute;
+    right: 255px;
+}
+
+.medinik2-price-table {
+    padding: 150px 0px;
+}
+
+/* our them End */
+/* Table */
+/* our clint about */
+.medinik2-clint-aboutus-main {
+    background-image: url(image/ImageBg.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    position: relative;
+    text-align: center;
+}
+
+.medinik2-clint-aboutus-card {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 65px -15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0px 21px 21px 21px;
+}
+
+.medinik2-clint-aboutus-card img {
+    margin-top: -19px;
+    position: relative;
+}
+
+.medinik2-clint-aboutus-card h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.aboutus-card-1 {
+    position: absolute;
+    left: 95px;
+}
+
+.aboutus-card-2 {
+    position: absolute;
+    right: 98px;
+}
+
+.aboutus-card-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 136px;
+}
+
+.aboutus-card-4 {
+    position: absolute;
+    right: 149px;
+    bottom: 0px;
+}
+
+.clint-aboutus-img-1 {
+    position: absolute;
+    top: 379px;
+    left: 13%;
+}
+
+.clint-aboutus-img-2 {
+    position: absolute;
+    right: 13%;
+    bottom: 256px;
+}
+
+.clint-aboutus-img-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 13%;
+}
+
+
+.medinik2-clint-aboutus {
+    position: relative;
+    padding-bottom: 200px;
+}
+
+/* our clint auout */
+/* Bloge */
+.medinik2-blog-main-container {
+    width: 404px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 45px -10px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    padding: 31px 15px 18px 29px;
+    position: absolute;
+    bottom: -99px;
+    right: 0px;
+}
+
+.st2__link {
+    border-bottom: 1px solid;
+}
+
+.medinik2-blog-main-container i {
+    color: #2AA7FF;
+}
+
+.medinik2-blog-position {
+    position: relative;
+}
+
+.medinik2-blog-main-container span {
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.medinik2-blog-main-container-bottom {
+    margin-top: -6px;
+}
+
+.medinik2-blog-main-container-bottom .medinik2-h3 a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik2-blog {
+    padding-bottom: 120px;
+}
+
+.medinik2-blog-button span {
+    background: #2BA7FF;
+    box-shadow: 0px 25px 35px rgb(42 167 255 / 15%);
+    border-radius: 8px;
+    padding: 24px 19px;
+    color: #fff;
+}
+
+.medinik2-blog-container {
+    position: relative;
+}
+
+.clint-blog-img-2 {
+    position: absolute;
+    right: 0px;
+    top: 219px;
+}
+
+.clint-blog-img-1 {
+    position: absolute;
+    bottom: -173px;
+    left: -147px;
+}
+
+/* Bloge */
+/* Main Footer */
+.medinik2-footer {
+    background: #1B3C74;
+    padding: 150px 0px;
+}
+
+.medinik2-top-footer-left li a {
+    color: #ACC4EC;
+    background: rgba(255, 255, 255, 0);
+    padding: 22px 24px;
+    border-radius: 37px;
+    border: 1px solid #ACC4EC;
+}
+
+.medinik2-top-footer-left li a:hover {
+    color: #fff;
+    background: #2AA7FF;
+    border: 1px solid #2AA7FF;
+    ;
+}
+
+.medinik22-top-footer-middol {
+    padding-left: 43px;
+}
+
+.medinik2-footer-bottom {
+    padding-top: 100px;
+
+}
+
+.medinik2-footer-bottom ul {
+    padding-top: 17px;
+    border-top: 1px solid #254A87;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ACC4EC;
+}
+
+.clint-Footer-img-1 {
+    position: absolute;
+    left: -123px;
+    bottom: 85px;
+}
+
+.clint-Footer-img-2 {
+    position: absolute;
+    right: 0px;
+}
+
+.clint-Footer-img-3 {
+    position: absolute;
+    right: -103px;
+    bottom: 0px;
+}
+
+.medinik2-footer-container {
+    position: relative;
+}
+
+/* Main Footer */
+@media screen and (min-width: 981px) and (max-width: 5000px) {
+    .medinik-hero-banner .medinik-hero-banner-after img {
+        right: 21px;
+    }
+
+    .best-medical-treatment-right-p {
+
+        color: #2AA7FF;
+    }
+}
+
+.medinik-nav {
+    height: 64px;
+    padding: 40px 0px;
+    max-width: 1440px;
+}
+
+.medinik-fonts {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff !important;
+    z-index: -1;
+}
+
+.medinik-btn-color {
+    color: #FFFFFF;
+    background-color: #2AA7FF;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+    padding: 20px 47px;
+    z-index: -1;
+}
+
+.medinik-btn-color:hover {
+    color: #FFFFFF;
+    background-color: #27a1f8;
+}
+
+
+
+.medinik-hero-banner-after::after {
+    content: '';
+    display: inline-block;
+    width: 677px;
+    height: 700px;
+    border-radius: 477px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(22, 46, 87, 0) 100%);
+    top: -20px;
+    right: 0px;
+    border: 1px solid linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(22, 46, 87, 0) 100%);
+    z-index: -1;
+}
+
+.medinik-hero-banner-after::before {
+    content: '';
+    display: inline-block;
+    width: 594px;
+    height: 600px;
+    border-radius: 477px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(22, 46, 87, 0) 100%);
+    top: 24px;
+    right: 42px;
+    border: 1px solid linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(22, 46, 87, 0) 100%);
+    z-index: -1;
+}
+
+/* 3 */
+/* Bootstape Defalt Css */
+.nav-link {
+    padding: 0;
+}
+
+/* Medinik 2*/
+/* Medinik Hero Start */
+
+
+.medinik-hero-absolute {
+    position: absolute;
+
+}
+
+/* global h2 */
+.medinik-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik-hero-relative {
+    position: relative;
+}
+
+.medinik-hero-banner .medinik-hero-banner-after img {
+    right: 0px;
+    z-index: -1;
+}
+
+.medinik-hero-banner .medinik-hero-head-after {
+    top: -19px;
+}
+
+.medinik-hero-banner .medinik-hero-banner-Button {}
+
+.medinik-p-color {
+    color: #ACC4EC;
+}
+
+.medinik-pd {
+
+    padding: 10px 15px;
+
+}
+
+.active-itme {
+    color: #fff;
+}
+
+.medinik-p-color:hover {
+    color: #fff;
+}
+
+.medinik-hero-banner-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.75rem;
+    line-height: 140%;
+    position: relative;
+}
+
+.medinik3-hero-banner-heading {
+    color: #fff;
+}
+
+.medinik-hero-banner .medinik-hero-banner-paragrape p {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    color: #ACC4EC;
+    font-size: 1.2rem;
+    ;
+}
+
+.medinik2-hero-bg {
+    position: relative;
+}
+
+.medinik2-img1 {
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+    bottom: 212px;
+}
+
+.medinik3-hero {
+    overflow: hidden;
+}
+
+.main-image-hero-img {
+    margin-top: -133px;
+}
+
+.medinik2-bottompart-zindex {
+    z-index: 10;
+    position: relative;
+}
+
+.medinik3-bottompart-position {
+    position: absolute;
+    top: -306px;
+    width: 566px;
+    left: -90px;
+}
+
+.medinik2-bottompart-container {
+    z-index: 15;
+}
+
+.medinik3-bottompart-icone {
+    color: #2aa7ff;
+    border-radius: 8px;
+    font-size: 44px;
+}
+
+.medinik2-bottompart-content h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.medinik2-bottompart-icone-bg2 {
+    background-color: #4CD080
+}
+
+.medinik2-aboutus-right {
+    position: relative;
+}
+
+.medinik2-image-1 {
+    border-radius: 8px;
+}
+
+.medinik2-image-3 {
+    border-radius: 8px;
+}
+
+.medinik3-hero-image-1 {
+    position: absolute;
+    left: -46px;
+    top: 17px;
+}
+
+.medinik2-img2 {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+
+.hero-img-position-2 {
+    position: relative;
+    padding-top: 83px;
+}
+
+.hero-img-position-1 {
+    position: relative;
+}
+
+.medinik3-hero-image-2 {
+    position: absolute;
+    left: 0px;
+    top: -17px;
+}
+
+.medinik3-hero-image-3 {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+.hero-img-1 {
+    border-radius: 8px;
+}
+
+.medinik3 {
+    padding: 10rem 0rem 10rem 0rem;
+}
+
+.medinik3-bottompart-icone1 {
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 26px;
+    padding: 13px;
+}
+
+.medinik3-bottompart-bg {
+    background: #FFFFFF;
+    backdrop-filter: blur(25px);
+    border-radius: 8px;
+    padding: 26px 0px 18px 0px;
+}
+
+.medinik3-bottompart-bg p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.medinik3-about-position {
+    position: relative;
+}
+
+.medinik3-about-img-1 {
+    position: absolute;
+    z-index: -1;
+    top: -49px;
+    left: -68px;
+}
+
+.medinik3-about-img-2 {
+    position: absolute;
+    bottom: -132px;
+    left: -3px;
+}
+
+.zindex1 {
+    z-index: -1;
+}
+
+.medinik3-about-position {
+    z-index: 10;
+}
+
+.medinik3-about-image-4 {
+    width: 113%;
+}
+
+.medinik3-searvice-container .col {
+    padding: 37px;
+
+}
+
+.medinik3-searvice {
+    position: relative;
+}
+
+.medinik3-searvice-container {
+    background-color: #fff;
+
+}
+
+.medinik3-searvice-border-bottom {
+    border-bottom: 1px solid #E5ECF1;
+}
+
+.medinik3-searvice-border-right {
+    border-right: 1px solid #E5ECF1;
+    ;
+}
+
+.medinik3-searvice-border-right:hover {
+    background: #FFB200;
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem !important;
+    transition: 1s;
+    border-radius: 8px;
+    /* position: absolute; */
+    width: 290px;
+    transform: translate(36px, -15%);
+}
+
+.medinik3-searvice-border-right {
+    background-color: #fff;
+}
+
+.medinik3-searvice-border-bottom {
+    position: relative;
+}
+
+/* searvice */
+/* About us */
+.medinik2-whychooseus-color-1 {
+    color: #2AA7FF;
+    border-radius: 57px;
+    padding: 23px 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 25px -10px rgb(0 0 0 / 10%);
+}
+
+.medinik3-hero-image-3 {
+    position: absolute;
+    bottom: -19px;
+    right: 9px;
+}
+
+.medinik3-about-position-right {
+    border-radius: 8px;
+    padding: 6rem 2rem 5rem 4rem;
+    margin-top: 3.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 45px rgb(0 0 0 / 6%);
+    max-width: 670px;
+    z-index: 10;
+}
+
+.about-corner-picks {
+    position: absolute;
+    top: -12%;
+    right: -12%;
+    z-index: 1;
+}
+
+.about-dotted-picks {
+    position: absolute;
+    bottom: -16px;
+    right: 8%;
+    z-index: 1;
+}
+
+.medinik3-about-position img {
+    border-radius: 8px;
+}
+
+.medinik3-btn-color {
+    color: #ffffff;
+    border: none;
+    padding: 20px 47px;
+    font-weight: bold;
+    background: #2BA7FF;
+    box-shadow: 0px 25px 35px rgb(42 167 255 / 15%);
+    border-radius: 8px;
+}
+
+.medinik3-about-position-img {
+    position: absolute;
+    right: -98px;
+    top: -116px;
+}
+
+.medinik-health-services {
+    padding: 130px 0;
+}
+
+.medinik3-about {
+    padding: 20rem 0rem 11rem 0rem;
+}
+
+.social-shere-blog {
+    display: flex;
+    align-items: center
+}
+
+.social-shere-blog ul {
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.social-shere-blog ul li {
+    float: left;
+    margin: 0 7.5px
+}
+
+.social-shere-blog ul li a {
+    background: #3B5999;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.social-shere-blog ul li.med-twitter a {
+    background: #55ACEE;
+}
+
+.social-shere-blog ul li.med-linkedin a {
+    background: #1da1f2;
+}
+
+.social-shere-blog ul li.med-instgram a {
+    background: #e1306c;
+}
+
+.doctor-details-progress-bar {
+    padding: 138px 0px;
+    background: #F2F6F9;
+}
+
+.appointment-from-rt-lt {
+    padding-top: 120px;
+    padding-bottom: 80px
+}
+
+.doctor-details-progress-bar-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.doctor-details-progress-one a {
+    color: #1B3C74;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.doctor-details-progress-one .progress-bar {
+    background-color: #2AA7FF;
+    border-radius: 21px;
+}
+
+.doctor-details-progress-two .progress-bar {
+    background-color: #FF684C;
+    border-radius: 21px;
+}
+
+.doctor-details-progress-three .progress-bar {
+    background-color: #4CD080;
+    border-radius: 21px;
+}
+
+.doctor-details-progress-for .progress-bar {
+    background-color: #FFB200;
+    border-radius: 21px;
+}
+
+.doctor-details-progress-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.doctor-details-progress-bar .progress {
+    height: 8px;
+    background: #D5E0E8;
+}
+
+/* About us */
+/* Work Place */
+.medinik3-positon-a {
+    background: #CCEAFF;
+    padding: 4px 13px;
+    position: relative;
+    border-radius: 42px;
+}
+
+.medinik3-positon-i {
+    position: absolute;
+    top: 18px;
+    font-size: 21px;
+}
+
+.medinik3-positon-a-2 {
+    background-color: #FFD4CC;
+}
+
+.medinik3-positon-a-3 {
+    background-color: #D7F4E2;
+}
+
+.medinik3-health-services-card {
+    position: relative;
+}
+
+.medinik3-workplace-img-1 {
+    position: absolute;
+    top: 44px;
+    right: -104px;
+}
+
+.medinik3-p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+
+}
+
+.medinik3-working-main {
+    padding: 100px 0px 100px 0px;
+}
+
+.doctor-adress p {
+    margin-bottom: 10px;
+}
+
+.medinik-p span {
+    color: #1B3C74;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.social-shere-blog-contant.doctor-adress-head {
+    font-size: 20px;
+    color: #1B3C74;
+    font-family: var(--alt-font-family);
+}
+
+.doctor-detail-left img {
+    border-radius: 8px;
+}
+
+.doctor-detail-left {
+    position: relative;
+}
+
+.about-cirlce {
+    position: absolute;
+    left: -20%;
+    z-index: 1;
+    top: 30%;
+}
+
+.doctor-detail-left .size-single-doctor-thumbnail-one {
+    position: relative;
+    z-index: 5;
+}
+
+/* work place */
+/* Active Call */
+.medinik3-health-solution-left-main-img {
+    background: #2AA7FF;
+    border-radius: 8px;
+    padding: 2rem 2rem 0rem 6rem;
+}
+
+.medinik3-health-solution-left-img p {
+    color: #fff;
+}
+
+.medinik3-health-solution-left-img h2 {
+    color: #fff;
+}
+
+.medinik3-active-position {
+    position: relative;
+}
+
+.medinik3-call-active-img {
+    position: absolute;
+    right: 279px;
+}
+
+.medinik3-call-active-img-2 {
+    margin-top: -79px;
+    width: 100%;
+}
+
+.medinik3-working {
+    padding-bottom: 12rem;
+    position: relative;
+}
+
+.medinik3-working-1 {
+    position: absolute;
+    left: 12rem;
+    top: 17rem;
+}
+
+.medinik-testimonial-icon-sub-next-color {
+    color: #fff !important;
+    background-color: #27a1f8 !important;
+}
+
+.medinik3-working-2 {
+    position: absolute;
+    right: 12rem;
+    top: 17rem;
+}
+
+.medinik3-recent-bg {
+    background: #F8F8F8;
+    border-radius: 8px;
+    margin: 0px 0px 0px 73px;
+    z-index: 100;
+}
+
+.medinik3-working-3 {
+    width: 66px;
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+}
+
+.medinik3-working-4 {
+    width: 100px;
+    position: absolute;
+    right: 12rem;
+    bottom: 14rem;
+}
+
+.medinik3-call-active-right {
+    position: relative;
+    z-index: 1;
+
+}
+
+.medinik3-call-active-img-3 {
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    top: -31px;
+    right: 87px;
+}
+
+.medinik2-swip-overflow {
+    overflow-x: clip !important;
+}
+
+.medinik3-over-flow {
+    overflow-x: clip !important;
+    width: 75%;
+}
+
+.medinik3-work-slide-h {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.medinik3-work-slide-p {
+    padding-bottom: 2rem;
+}
+
+.medinik-testimonial-icon-sub-next {
+    top: -8rem !important;
+    left: 72rem !important;
+}
+
+.medinik-testimonial-icon-sub-pvr {
+    top: -8rem !important;
+    left: 67rem !important;
+}
+
+.medinik3-recent-bg:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 45px -15px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+}
+
+.medinik2-recent-bg:hover h2 {
+    color: #2aa7ff;
+}
+
+.medinik2-border-right img {
+    width: 100%;
+}
+
+.medinik3-awarde-cl {
+    margin-top: 2rem;
+}
+
+/* Award */
+.medinik3-awarde-container-1 {
+    background: #EBF7FF;
+    border-radius: 8px;
+}
+
+.medinik3-awarde-container-2 {
+    background: #FFF7E6;
+    border-radius: 8px;
+}
+
+.medinik3-awarde-container-3 {
+    background: #EBFAF1;
+    border-radius: 8px;
+}
+
+.medinik3-awarde-container-4 {
+    background: #FFF2F0;
+    border-radius: 8px;
+}
+
+.medinik3-awarde-container-1 p {
+    padding-left: 0px;
+}
+
+.medinik3-Aword-1 {
+    color: #2AA7FF;
+    border-radius: 57px;
+    padding: 32px 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 25px -10px rgb(0 0 0 / 10%);
+}
+
+.medinik3-Aword-h {
+    padding-top: 30px;
+}
+
+.medinik3-awarde {
+    padding: 100px 0px;
+}
+
+/* Award */
+/* why chooce us */
+.health-solution-icon {
+    padding: 20px 22px;
+    border-radius: 12px;
+}
+
+.health-solution-icon-1 {
+    background: #EBF7FF;
+    color: #2AA7FF;
+}
+
+.health-solution-icon-2 {
+    background: #FFF2F0;
+    color: #FF684C;
+}
+
+.health-solution-icon-3 {
+    background: #EBFAF1;
+    color: #4CD080;
+}
+
+.health-solution-icon-4 {
+    background: #FFF7E6;
+    color: #FFB200;
+}
+
+.medinik3-chooseus {
+    padding: 150px 0px 30rem 0px;
+    position: relative;
+}
+
+.medinik3-chooseus-1 {
+    position: absolute;
+    bottom: 10rem;
+    left: 8rem;
+}
+
+.medinik3-chooseus-2 {
+    position: absolute;
+    right: 8rem;
+}
+
+.medinik3-whychooce-left-img {
+    position: relative;
+    text-align: center;
+    background: #2AA7FF;
+    border-radius: 8px;
+
+}
+
+.medinik3-whychooce-left {
+    padding-right: 40px;
+}
+
+.medinik-health-solution-righcol {
+    padding-right: 40px;
+}
+
+.whychooce-img-1 {
+    position: absolute;
+    left: -148px;
+    top: -85px;
+}
+
+.whychooce-img-2 {
+    margin-top: -82px;
+    width: 100%;
+}
+
+/* why chooce us */
+/* Expart Doctor */
+.medinik3-doctors-expart-list ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.medinik3-doctors-expart-img-card {
+    background: #FFFFFF;
+    box-shadow: 0px 35px 45px -10px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    padding: 0rem 2rem 1rem 0rem;
+}
+
+.medinik3-doctors-expart-img-card2 {
+    background: #FFFFFF;
+    box-shadow: 0px 35px 45px -10px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    padding: 0rem 5rem 1rem 5rem;
+}
+
+.doctor-image-1 {
+    margin-top: -31px;
+}
+
+.medinik3-doctors-img-3 {
+    position: absolute;
+    top: 13rem;
+    left: 9rem;
+}
+
+.medinik3-doctors-img-4 {
+    position: absolute;
+    top: 13rem;
+    right: 9rem;
+}
+
+.medinik3-doctors-expart-list li {
+
+    background: #EBF7FF;
+    padding: 4px 11px;
+    border-radius: 25px;
+
+}
+
+.medinik3-doctors-expart-img-card li:hover {
+    background: #2AA7FF;
+    box-shadow: 0px 10px 15px -4px rgba(42, 167, 255, 0.3);
+
+}
+
+.medinik-testimonial-icon-sub {
+    display: inline-block;
+    padding: 24px 26px;
+    background: #EBF7FF;
+    border-radius: 8px;
+    color: #2AA7FF;
+}
+
+.medinik-testimonial-icon-sub-active {
+    background: #2AA7FF;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.medinik3-doctors-expart-1 {
+    position: absolute;
+    width: 165px;
+    bottom: 19rem;
+}
+
+.medinik3-doctors-expart-2 {
+    position: absolute;
+    width: 165px;
+    bottom: 22rem;
+    right: 8rem;
+}
+
+.medinik3-doctors-expart-img-card li:hover a {
+
+    color: #fff;
+}
+
+.medinik3-doctors-expart-img-card:hover p {
+    color: #2AA7FF;
+}
+
+.lable-form-all {
+    border: 0px solid red;
+    background: #F2F6F9;
+    border-radius: 8px;
+    padding-left: 20px;
+    height: 64px;
+    margin: 12px 0px;
+}
+
+.lable-form-all {
+    border: 0px solid red;
+    background: #F2F6F9;
+    border-radius: 8px;
+    padding-left: 20px !important;
+    height: 64px;
+
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+    top: 50%;
+    z-index: 1;
+}
+
+.right-addon input {
+    padding-right: 20px;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.lable-form-all-width {
+
+    width: 100%;
+}
+
+.from-top h3 {
+    font-size: 34px;
+    background: #1B3C74;
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.medinik3-doctors-from {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.form-group {
+    padding: 53px 62px 65px 62px;
+}
+
+.medinik3-from-button a {
+    display: block;
+    padding: 19px 0px;
+    background: #2AA7FF;
+    box-shadow: 0px 25px 35px -10px rgb(42 167 255 / 25%);
+    border-radius: 8px;
+    border: none;
+    margin-top: 28px;
+}
+
+.lable-form-all-margin {
+    margin: 17px 0px;
+}
+
+.medinik3-doctors-from {}
+
+.medinik3-doctors-left {}
+
+.medinik3-doctors-container-top {
+    margin-top: -49rem;
+}
+
+.medinik3-doctors {
+    background-color: #FFF2F0;
+    position: relative;
+}
+
+.medinik3-doctors {
+    background-color: #FFF2F0;
+    padding: 31rem 0rem;
+    position: absolute;
+    width: 100%;
+
+}
+
+.medinik3-doctors-left-padding-2 {
+    padding-right: 50px;
+}
+
+/* Expart Doctor */
+/* medinik3-testimonial */
+.medinik3-testimonial {
+    padding: 100px 0px 150px 0px;
+}
+
+.medinik3-testimonial-img-1 {}
+
+.medinik2-team-slider {
+    position: relative;
+}
+
+.medinik2-team-slider-img-1 {
+    position: absolute;
+    left: 9rem;
+    top: 12rem;
+}
+
+.medinik3-testimonial-container-2 {
+    margin-top: 36rem;
+
+}
+
+.testimonial-contant {
+    z-index: 1;
+}
+
+.medinik-testimonial-icon-right {
+    top: 204px;
+    left: 10px;
+}
+
+.medinik-testimonial-icon-left {
+    right: 10px;
+    left: auto;
+    top: 203px;
+}
+
+.medinik3-nex-prv-1 {
+    font-size: 37px;
+}
+
+.medinik3-Blog-all {
+    position: relative;
+}
+
+.medinik3-Blog-inner {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    right: 32px;
+    bottom: 32px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.medinik3-Blog-all:hover .medinik3-Blog-inner {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+
+.medinik3-Blog-inner .post-author {
+    margin-bottom: 16px;
+}
+
+.medinik3-Blog-rm {
+    position: absolute;
+    bottom: 0;
+}
+
+.read-more-btn-link.st3__link {
+    color: #2AA7FF;
+    border-bottom: 1px solid;
+}
+
+.read-more-btn-link.st3__link:hover {
+    color: #fff;
+}
+
+.medinik3-Blog-inner .post-author a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.medinik3-Blog-inner h3,
+.medinik3-Blog-inner h3 a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+    word-break: break-all;
+}
+
+.medinik3-Blog-all:hover:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(27, 60, 116, 0.5) 0%, #1B3C74 100%);
+    transition: 0.3s;
+}
+
+.medinik3-Blog-all img,
+.medinik3-Blog-all:before {
+    border-radius: 8px !important;
+}
+
+
+
+
+
+/* medinik3-blog */
+/* Active Call */
+/* Main Footer */
+@media screen and (min-width: 981px) and (max-width: 5000px) {
+    .medinik-hero-banner .medinik-hero-banner-after img {
+        right: 21px;
+    }
+
+    .best-medical-treatment-right-p {
+
+        color: #2AA7FF;
+    }
+}
+
+.medinik-nav {
+    height: 64px;
+    padding: 40px 0px;
+    max-width: 1440px;
+}
+
+.medinik-fonts {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff !important;
+    z-index: -1;
+}
+
+.medinik3-btn-color {
+    color: #2AA7FF;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 25px 35px rgb(42 167 255 / 15%);
+    padding: 20px 47px;
+    font-weight: bold;
+}
+
+.medinik-btn-color:hover {
+    color: #FFFFFF;
+    background-color: #27a1f8;
+}
+
+.medinik2-whychooseus {
+    padding: 150px 1px 1px 1px;
+}
+
+.medinik-hero-banner-heading3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.75rem;
+    line-height: 140%;
+    /* or 106px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+
+
+
+/* desktop view */
+/* Medinik 2 end*/
+/* Nav Section Start */
+/* --------------------------------------------- */
+
+
+.rev1-infos {
+    display: flex;
+}
+
+.rev1-img {
+    margin-right: 24px;
+    border-radius: 8px;
+}
+
+.rev1-img img {
+    width: 64px;
+    height: 64px;
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+
+/* ==========================================================================================
+**********************************  Demo Style 4 & 5   **************************************
+============================================================================================ */
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.px-240 {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+.top-menu ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #77829D;
+    padding: 24px;
+    display: inline-block;
+}
+
+.top-menu ul li a:hover {
+    color: #0F2F65;
+}
+
+.banner1-inner-content .banner-btn,
+a.free-consult-btn {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 18px 32px;
+    background: #2AA7FF;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+}
+
+.banner-btn:visited,
+a.free-consult-btn:visited {
+    color: #fff;
+}
+
+.banner-btn {
+    display: inline-block;
+    background-color: #2AA7FF;
+    border-radius: 8px 8px 8px 8px;
+    padding: 21px 32px 21px 32px;
+    color: #fff;
+    box-shadow: 0px 25px 35px rgb(42 167 255 / 15%);
+    transition: all .2s;
+}
+
+.banner-btn:hover,
+.home-one-subscribe .wpcf7-form-control.wpcf7-submit:hover {
+    color: #fff;
+    background: #0B5ED7;
+}
+
+.banner-btn span:first-child {
+    margin-right: 5px;
+}
+
+.st4-banner-inner {
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.st4-banner-inner h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.st4-banner-inner p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.video-link-icon {
+    position: relative;
+    margin-left: 50px;
+}
+
+.video-link-icon a {
+   
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+.video-link-icon .title-color{
+     margin-left: 36px;
+}
+
+.video-link-icon span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.video-link-icon span i {
+    font-size: 12px;
+    background: #FFB200;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+.video-link-icon span::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #F7D985;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ringa 2s infinite;
+}
+
+.video-link-icon span::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #F5E5B0;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ringb 2s infinite;
+}
+
+@keyframes ringa {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 46px;
+        height: 46px;
+        opacity: 0;
+    }
+}
+
+@keyframes ringb {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 64px;
+        height: 64px;
+        opacity: 0;
+    }
+}
+
+.st4-hero-banner {
+    margin-bottom: 147px;
+}
+
+.banner-right-section {
+    height: 100%;
+    position: relative;
+}
+
+.st4-banner-bg-img {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    bottom: -90px;
+}
+
+.st4-banner-img {
+    position: absolute;
+    bottom: 105px;
+    text-align: center;
+}
+
+.brainstorm {
+    position: absolute;
+    top: 80px;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brainstorm img {
+    width: 40px;
+    height: 40px;
+}
+
+.phy-activity {
+    position: absolute;
+    background: #fff;
+    padding: 6px 24px;
+    border-radius: 50px;
+    bottom: 280px;
+    right: -80px;
+    display: flex;
+    align-items: center;
+}
+
+.phy-activity h6,
+.phy-activity p {
+    margin: 0;
+    text-align: left;
+}
+
+.phy-activity span {
+    position: relative;
+    display: flex;
+}
+
+.phy-activity span i {
+    font-size: 12px;
+    background: #4CD080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #4CD080;
+    z-index: 99;
+}
+
+.phy-activity span:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #BAE8CC;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    animation: phy-ringa 2s infinite;
+}
+
+.phy-activity span:after {
+    content: '';
+    width: 45px;
+    height: 45px;
+    background: #DDF2E5;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: phy-ringb 2s infinite;
+}
+
+.phy-activity-content {
+    margin-left: 26px;
+}
+
+@keyframes phy-ringa {
+    0% {
+        width: 15px;
+        height: 15px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+    }
+}
+
+@keyframes phy-ringb {
+    0% {
+        width: 15px;
+        height: 15px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 45px;
+        height: 45px;
+        opacity: 0;
+    }
+}
+
+.phy-activity-content h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.phy-activity-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #77829D;
+}
+
+.single-department {
+    background: #EBF7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    border-radius: 8px;
+}
+
+.dept-img {
+    width: 96px;
+    height: 96px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dept-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.single-department p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #1B3C74;
+    margin: 0;
+}
+
+.single-department:hover {
+    background: #2AA7FF;
+}
+
+.single-department:hover .dept-img {
+    background: #4DB5FF;
+}
+
+.single-department:hover p {
+    color: #ffffff;
+}
+
+.section-title {
+    margin-bottom: 63px;
+}
+
+.section-title h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.section-title .before-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #2AA7FF;
+}
+
+.st4-departnemt-area {
+    margin-bottom: 140px;
+}
+
+.departnets {
+    position: relative;
+}
+
+.department-bottom-pattern {
+    position: absolute;
+    bottom: -55px;
+    left: -55px;
+    z-index: -1;
+}
+
+.department-top-pattern {
+    position: absolute;
+    top: -70px;
+    right: -230px;
+}
+
+.st4-team-info {
+    padding: 150px 0px 360px;
+}
+
+.st4-single-member {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.member-img {
+    border: 16px solid #fff;
+    border-radius: 50% 50% 10px 10px;
+    background: linear-gradient(0deg, #ff8f7b, #f6d2cb);
+    margin-bottom: 21px;
+}
+
+.member-img img {
+    padding-top: 32px;
+}
+
+.st4-single-member h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin-bottom: 2px;
+}
+
+.st4-team-members {
+    margin-bottom: 140px;
+}
+
+.st4-single-member p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2AA7FF;
+}
+
+.patients-info {
+    margin-bottom: 56px;
+}
+
+.patients-info p {
+    margin-bottom: 39px;
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.section-title.patinets-title {
+    margin-bottom: 26px;
+}
+
+.popular-doctor-img img:first-child {
+    margin-left: 0;
+}
+
+.popular-doctor-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-left: -15px;
+}
+
+.popular-doctor-img a {
+    background: #2AA7FF;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 12px 13px;
+    line-height: 0;
+    border-radius: 50%;
+    margin-left: -15px;
+    border: 4px solid #FFFFFF;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.popular-doctors p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.popular-doctors {
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -15px rgba(148, 182, 206, 0.15);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.patinets-single-review {
+    background: #FFFFFF;
+    
+    border-radius: 8px;
+    padding: 32px;
+
+}
+.patinets-single-review.swiper-slide-active{
+    box-shadow: 0px 120px 60px -45px rgba(0, 0, 0, 0.07);
+}
+
+.patinets-reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.patinets-reviews .patinets-single-review .review-star-wraper {
+    position: relative;
+    line-height: 1;
+    margin-bottom: 17px;
+}
+
+.review-star-wraper .before-rating i {
+    color: #e0e6eb;
+    font-size: 14px;
+}
+
+.review-star-wraper {
+    position: relative;
+}
+
+.rsf-rap {
+    position: relative;
+    width: 72px;
+    text-align: left;
+}
+
+.review-star-wraper .after-rating i {
+    font-size: 14px;
+    color: #ffb200;
+}
+
+.review-star-wraper .after-rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.patinets-single-review p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.reviewer-info {
+    display: grid;
+    grid-template-columns: 62px 1fr;
+}
+
+.reviewer-info-one {
+    clear: both;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.reviewer-info-one .rev-img {
+    margin-right: 24px;
+}
+
+.reviewer-info-six {
+    background-color: #F2F6F9;
+    margin-bottom: -32px;
+    margin-left: -33px;
+    margin-right: -32px;
+    border-radius: 0px 0px 8px 8px;
+    padding: 15px 18px 17px 30px;
+}
+
+
+
+.rev-img img {
+    width: 48px;
+    height: 48px !important;
+    border-radius: 12px !important;
+}
+
+.rev-img-st-6 img {
+    border-radius: 62px !important;
+}
+
+.rev-nem h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #1B3C74;
+    margin-bottom: 0;
+    font-family: 'Gilroy';
+}
+
+.rev-nem p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #77829D;
+    margin: 0;
+}
+
+.patinets-reviews:after {
+    content: '';
+    width: 268px;
+    height: 268px;
+    background: #DFF3FF;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.patinets-reviews-four {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 25px 35px -10px rgb(0 0 0 / 6%);
+}
+
+.patinets-reviews-four .swiper-button-next,
+.patinets-reviews-four .swiper-button-prev {
+    background-image: none;
+}
+
+.patinets-reviews-four .swiper-button-next:after,
+.patinets-reviews-four .swiper-button-prev:after {
+    content: '';
+}
+
+.patinets-single-review-four .reviewer-info {
+    display: block;
+}
+
+.patinets-reviews-four .patinets-single-review-four {
+    border-radius: 8px;
+    padding: 48px;
+    overflow: hidden;
+}
+
+.patinets-reviews-four .swiper-button-prev i,
+.patinets-reviews-four .swiper-button-next i {
+    font-size: 42px;
+    color: #1B3C74;
+}
+
+.patinets-reviews-four .swiper-button-prev i:hover,
+.patinets-reviews-four .swiper-button-next i:hover {
+    color: #2AA7FF;
+}
+
+.patinets-reviews-four .swiper-button-prev {
+    top: 100px;
+    left: -95px;
+}
+
+.patinets-reviews-four .swiper-button-next {
+    top: 100px;
+    right: -95px;
+}
+
+.patinets-reviews-four .swiper-button-prev:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #FFE2DE;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    top: -10px;
+    left: -20px;
+}
+
+.patinets-reviews-four .swiper-button-next:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #FFE2DE;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    top: -10px;
+    right: -20px;
+}
+
+.patinets-reviews-four .swiper-button-prev:hover:after,
+.patinets-reviews-four .swiper-button-next:hover:after {
+    background: #FFFFFF;
+}
+
+
+
+.about-free-consult-top {
+    text-align: right;
+}
+
+.about-free-consult {
+    display: block;
+    overflow: hidden;
+    padding-right: 35px;
+}
+
+.about4-const-img {
+    width: 410px;
+    position: relative;
+    float: right;
+}
+
+.about4-const-img img {
+    max-width: 410px;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.const-contact {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    left: -40%;
+    top: 25%;
+}
+
+.const-contact h5 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.const-contact h5 i {
+    font-size: 16px;
+    background: #2AA7FF;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.const-contact p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #77829D;
+    text-align: left;
+    margin: 0;
+}
+
+.about-free-consult-bottom .about4-const-img {
+    float: left;
+    margin-top: -80px;
+}
+
+.about-free-consult-bottom .about4-const-img .const-contact {
+    left: unset;
+    right: -35%;
+    top: unset;
+    bottom: 25%;
+}
+
+.st4-about-area {
+    padding: 144px 0px;
+}
+
+.about-free-const-info {
+    padding-left: 35px;
+}
+
+.about-free-const-info .section-title {
+    margin-bottom: 32px;
+}
+
+.about-free-const-info p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    margin-bottom: 24px;
+}
+
+.about-const-list {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #E5ECF1;
+    padding-bottom: 32px;
+    margin-bottom: 35px;
+}
+
+.about-const-list-icon i {
+    background: linear-gradient(135deg, #FFDC89 0%, #FFB200 100%);
+    color: #ffffff;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 45px -5px rgba(255, 187, 28, 0.3);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 22px;
+}
+
+.about-const-list ul {
+    padding-left: 26px;
+    margin: 0;
+}
+
+.about-const-list ul li {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1B3C74;
+    line-height: 36px;
+}
+
+.const-author-info {
+    display: grid;
+    grid-template-columns: 76px 1fr 1fr;
+}
+
+.const-author-info .ca-au-info h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin: 0;
+}
+
+.const-author-info .ca-au-info p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2AA7FF;
+}
+
+.const-author-info .ca-img img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.07);
+    border: 4px solid #fff;
+}
+
+.ca-au-sig {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.fun-fact-area {
+    padding: 144px;
+}
+
+.fun-fact-info .section-title {
+    margin-bottom: 22px;
+}
+
+.fun-fact-info p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    margin-bottom: 35px;
+}
+
+.fun-fact-list ul {
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+    margin-bottom: 26px;
+}
+
+.fun-fact-list ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+    margin-bottom: 10px;
+}
+
+.fun-fact-list ul li i {
+    color: #2AA7FF;
+}
+
+.fun-fact-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+.fact-single {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 45px -5px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px;
+    justify-items: center;
+}
+
+.fact-icon {
+    width: 104px;
+    height: 104px;
+    background: #EBF7FF;
+    align-items: center;
+    display: grid;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.fact-icon i {
+    font-size: 40px;
+    color: #2AA7FF;
+}
+
+.fact-single h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    color: #1B3C74;
+}
+
+.fact-single p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #77829D;
+    margin: 0;
+}
+
+.fun-fact-top-right-shape {
+    position: absolute;
+    top: -42px;
+    right: -42px;
+    z-index: -1;
+}
+
+.free-const-cta-inner {
+    text-align: center;
+    padding-top: 73px;
+    padding-bottom: 80px;
+    margin-top: -210px;
+}
+
+.free-const-cta-inner span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.free-const-cta-inner h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+
+a.banner-btn-white {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #1B3C74;
+    padding: 18px 32px;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+    border-radius: 8px;
+}
+
+.free-const-cta {
+    margin-bottom: 140px;
+}
+
+.st4-faq-bnr-img {
+    position: relative;
+    max-width: 500px;
+}
+
+.st4-faq-area {
+    margin-bottom: 140px;
+}
+
+.st4-faq-bnr-img>img {
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 15px 35px -5px rgb(0 0 0 / 9%);
+}
+
+.faq-smile {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 35px -5px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 18px 24px 20px 24px;
+    max-width: max-content;
+    position: absolute;
+    bottom: 132px;
+    left: -92px;
+}
+
+.faq-happ h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin: 0;
+}
+
+.faq-happ p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #77829D;
+    margin: 0;
+}
+
+.faq-love {
+    width: 72px;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    right: -55px;
+}
+
+.faq-love img {
+    width: 40px;
+    height: 40px;
+}
+
+.accordion-button.collapsed {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.accordion-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2AA7FF;
+}
+
+.accordion-button {
+    padding-left: 0px;
+    padding: 18px 24px 18px 0px;
+}
+
+.accordion-item {
+    background: #F8F8F8;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    padding-left: 24px;
+}
+
+.accordion-body {
+    margin-right: 40px;
+    background: #F8F8F8;
+    box-shadow: none;
+    border-top: 1px solid #E3E7ED;
+    padding: 24px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.medinik-cs .accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0;
+}
+
+.medinik-cs .accordion-button:focus,
+.medinik-cs button,
+.medinik-cs [type=button] {
+    border-color: none;
+    background: none;
+    box-shadow: none;
+}
+
+.medinik-cs .accordion-item {
+    background: #F2F6F9;
+}
+
+.medinik-cs .accordion-body {
+    background: transparent;
+}
+
+.medinik-cs .accordion-button.collapsed {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #1B3C74;
+}
+
+.medinik-cs .accordion-button:not(.collapsed) {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #2AA7FF;
+}
+
+.company-logo-iner {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.company-logo-iner img {
+    width: auto;
+    height: 30px;
+}
+
+.st4-company-logo-carosel {
+    padding: 140px 0;
+}
+
+.st4-blog-post-area {
+    padding: 140px 0px;
+}
+
+.st4-post-thumb {
+    margin-bottom: 25px;
+}
+
+.st4-post-thumb img {
+    background: #C4C4C4;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.st4-post-meta {
+    margin-bottom: 16px;
+}
+
+.st4-post-meta ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.st4-post-meta ul li {
+    margin-right: 20px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.st4-post-meta ul li:last-child {
+    margin-right: 0;
+}
+
+.st4-post-meta ul li:after {
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #ddd;
+    position: absolute;
+    margin: 0px 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.st4-post-meta ul li:last-child:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+}
+
+.st4-post-meta ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.st4-blog-single h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin-bottom: 15px;
+}
+
+.st4-post-author {
+    display: flex;
+    align-items: center;
+}
+
+.st4-post-author img {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+}
+
+.st4-post-author .author-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.portfolio-item {
+    background: #F8F8F8;
+    border-radius: 8px;
+}
+
+.portfolio-content h4 {
+    margin-bottom: 10px;
+}
+
+.portfolio-content {
+    padding: 22px;
+}
+
+span.dr-available {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7583A7;
+}
+
+.portfolio-img img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.portfolio-title h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.portfolio-title span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2AA7FF;
+    margin-bottom: 4px;
+}
+
+.portfolio-short-desc p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7583A7;
+    margin-bottom: 0;
+}
+
+.row.portfolio-top {
+    margin-bottom: 38px;
+}
+
+.swiper.swiper-init {
+    overflow: unset;
+}
+
+.port-btn-wraper {
+    position: absolute;
+    top: -100px;
+    width: 164px;
+    display: flex;
+    right: 0;
+}
+
+.port-btn-wraper .swiper-button-next,
+.port-btn-wraper .swiper-button-prev {
+    background: #2AA7FF;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.port-btn-wraper .swiper-button-next:after,
+.port-btn-wraper .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 16px !important;
+    font-weight: 700;
+    color: #FFF;
+}
+
+/* =====================================================================================================
+                                                Page Style 5 
+ ===================================================================================================== */
+.st5-banner-area {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
+.st5-banner-area:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 41, 86, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.st5-banner-inner h1 {
+    font-weight: 600;
+    font-size: 86px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.st5-banner-inner p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #D7DEEA;
+}
+
+.st5-banner-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.st5-banner-inner {
+    max-width: 770px;
+}
+
+.st5-banner-shape1 {
+    position: absolute;
+    top: 20%;
+    left: -6%;
+    padding: 130px 100px 130px 162px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+}
+
+.st5-banner-shape1 img {
+    width: 106px;
+    height: 112px;
+}
+
+.st5-banner-shape2 {
+    position: absolute;
+    top: 21%;
+    right: 4%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.st5-banner-shape2 img {
+    width: 167px;
+}
+
+.st5-banner-shape3 {
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+}
+
+.st5-banner-shape3 img {
+    width: 185px;
+}
+
+.st5-banner-top-veriew {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background: #FFB200;
+    border-radius: 8px;
+    width: 315px;
+    padding: 24px;
+}
+
+.st5-banner-top-veriew .br-icon i {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.st5-banner-top-veriew p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.br-author {
+    display: flex;
+    align-items: center;
+
+}
+
+.br-author img {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+}
+
+.br-author .author-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+.st5-department-area {
+    padding: 140px 0px;
+}
+
+.st5-service-department {
+    margin-bottom: 140px;
+}
+
+.st5-single-department {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 45px -5px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    grid-gap: 20px;
+    margin-bottom: 24px;
+    padding: 30px 32px 26px 32px;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+}
+
+.st5-single-department:hover {
+    border-bottom: 4px solid #2AA7FF;
+}
+
+.st5-d-icon img {
+    width: 56px;
+}
+
+.st5-d-content h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+}
+
+.st5-d-content p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    margin: 0;
+}
+
+
+.de-img-1 {
+    float: right;
+    margin-bottom: 30px;
+}
+
+.de-img-2 {
+    float: right;
+}
+
+.de-img-1 img {
+    width: 285px;
+    height: 275px;
+    border-radius: 4px;
+}
+
+.de-img-2 img {
+    width: 400px;
+    height: 320px;
+    border-radius: 4px;
+}
+
+.de-img-3 img {
+    width: 258px;
+    height: 268px;
+    border-radius: 4px;
+}
+
+.de-img-3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.st5-department-expert-img {
+    position: relative;
+    overflow: hidden;
+    padding-right: 45px;
+}
+
+.st5-department-expert-img:after {
+    content: '';
+    width: 338px;
+    height: 338px;
+    background: #FFF2F0;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.de-img-4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.st5-department-expert-info .section-title {
+    margin-bottom: 32px;
+}
+
+.st5-department-expert-info p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    margin-bottom: 32px;
+}
+
+.st5-department-expert-info ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+    margin-bottom: 11px;
+}
+
+.st5-department-expert-info ul li i {
+    margin-right: 6px;
+}
+
+.st5-department-expert-info ul {
+    margin-bottom: 32px;
+    padding: 0;
+}
+
+.st5-service-cunter .service-single-count h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: #2AA7FF;
+    margin: 0;
+}
+
+.st5-service-cunter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.work-progress-area {
+    background: #EBFAF1;
+    padding: 140px 0px;
+}
+
+.progress-step-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-step-single .step-img {
+    width: 210px;
+    height: 210px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.progress-step-single .step-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 8px solid #fff;
+}
+
+.itemn {
+    position: absolute;
+    top: 40px;
+    right: -5px;
+    transform: translateY(-50%);
+}
+
+.itemn span {
+    background: #FF684C;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 8px solid #fff;
+    display: inline-block;
+}
+
+.progress-step-single h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #1B3C74;
+    margin-bottom: 15px;
+}
+
+.progress-step-single p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #77829D;
+    padding: 0px 12px;
+}
+
+.s-banner-inner-content span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.s-banner-inner-content h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+span.bnr-video-link-icon {
+    position: relative;
+    margin-top: 18px;
+}
+
+span.bnr-video-link-icon span {
+    position: absolute;
+}
+
+span.bnr-video-link-icon span::before {
+    content: '';
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: #F5E5B0;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ringbb 2s infinite;
+}
+
+span.bnr-video-link-icon span::after {
+    content: '';
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: #F7D985;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ringba 2s infinite;
+}
+
+span.bnr-video-link-icon span i {
+    font-size: 48px;
+    background: #FFB200;
+    width: 136px;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+@keyframes ringba {
+    0% {
+        width: 48px;
+        height: 48px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 192px;
+        height: 192px;
+        opacity: 0;
+    }
+}
+
+@keyframes ringbb {
+    0% {
+        width: 48px;
+        height: 48px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 248px;
+        height: 248px;
+        opacity: 0;
+    }
+}
+
+.animated-icon-wraper {
+    display: flex;
+    justify-content: center;
+}
+
+.solution-banner-area {
+    position: relative;
+    padding: 200px 0px;
+    z-index: 1;
+}
+
+.solution-banner-area:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(27, 60, 116, 0.8) 0%, rgba(27, 60, 116, 0.4) 100%);
+    z-index: -1;
+}
+
+.st5-appointment-area {
+    padding: 140px 0px;
+}
+
+.st5-appointment-info p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    width: 80%;
+}
+
+.st5-popular-doctors h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.st5-popular-doctors {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 65px -5px rgba(148, 182, 206, 0.2);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 32px;
+}
+
+.st5-popular-doctors img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-left: -15px;
+}
+
+.st5-popular-doctors a.medf-more-arrowf {
+    background: #2AA7FF;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 12px 13px;
+    line-height: 0;
+    border-radius: 50%;
+    margin-left: -15px;
+    border: 4px solid #FFFFFF;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    width: 100% !important;
+    margin-top: 39px;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    transform: scale(1) !important;
+    margin: 9px;
+    outline-offset: 7px;
+    background: #BCD8E9;
+    opacity: 1;
+    position: unset !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
+    outline: 1px solid #2AA7FF;
+    background: #2AA7FF;
+}
+
+
+.pop-med-bottom-imgs {
+    margin-top: 30px;
+}
+
+.medinik-home-banner1 {
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+}
+
+
+.appointment-helpline-single {
+    background: #EBF7FF;
+    border-radius: 8px;
+    padding: 36px 56px 48px;
+}
+
+.appointment-helpline-single h2 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin-bottom: 32px;
+}
+
+.appointment-helpline-single h2 span {
+    color: #2AA7FF;
+    display: block;
+}
+
+.st5-faq-area {
+    margin-bottom: 140px;
+}
+
+.st5-faq-doctors-img .fdi2 {
+    float: right;
+    margin-top: -90px;
+    z-index: 111;
+    position: relative;
+}
+
+.st5-faq-doctors-img .fdi1 img,
+.st5-faq-doctors-img .fdi2 img {
+    border-radius: 8px;
+}
+
+.st5-client-reviews {
+    background: #EBF7FF;
+    padding: 140px 0px;
+}
+
+.st5-blog-post-area {
+    padding: 140px 0px;
+}
+
+.st5-post-thumb {
+    margin-bottom: 30px;
+}
+
+.st5-post-thumb img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.st5-blog-single h2 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin-bottom: 23px;
+}
+
+.st5-blog-single p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+    border-bottom: 1px solid #E5ECF1;
+    padding-bottom: 17px;
+}
+
+.st5-blog-single ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.st5-blog-single ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.st5-blog-single ul li i {
+    color: #2AA7FF;
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+
+.footer-list-items-alt li a:before {
+    color: #ACC4EC;
+}
+
+/* Elementro Widgets Style */
+.medinik-reviews-one .swiper-button-next,
+.medinik-reviews-one .swiper-button-prev,
+.medinik-reviews-two .swiper-button-next,
+.medinik-reviews-two .swiper-button-prev {
+    top: auto;
+    bottom: -128px;
+    color: #2AA7FF;
+    font-size: 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medinik-reviews-one .swiper-button-next,
+.medinik-reviews-one .swiper-button-prev {
+    bottom: -104px;
+}
+
+.medinik-reviews-one .swiper-button-prev,
+.medinik-reviews-one .swiper-container-rtl .swiper-button-next,
+.medinik-reviews-one .swiper-button-prev,
+.medinik-reviews-one .swiper-container-rtl .swiper-button-next,
+.medinik-reviews-two .swiper-button-prev,
+.medinik-reviews-two .swiper-container-rtl .swiper-button-next,
+.medinik-reviews-two .swiper-button-next,
+.medinik-reviews-two .swiper-container-rtl .swiper-button-prev {
+    background-image: none;
+}
+
+.medinik-reviews-one .swiper-button-prev:after,
+.medinik-reviews-one .swiper-container-rtl .swiper-button-next:after,
+.medinik-reviews-one .swiper-button-next:after,
+.medinik-reviews-one .swiper-container-rtl .swiper-button-prev:after,
+.medinik-reviews-two .swiper-button-prev:after,
+.medinik-reviews-two .swiper-container-rtl .swiper-button-next:after,
+.medinik-reviews-two .swiper-button-next:after,
+.medinik-reviews-two .swiper-container-rtl .swiper-button-prev:after {
+    display: none;
+}
+
+.medinik-reviews-one .swiper-button-prev:hover,
+.medinik-reviews-one .swiper-button-next:hover,
+.medinik-reviews-two .swiper-button-prev:hover,
+.medinik-reviews-two .swiper-button-next:hover {
+    background: #2AA7FF;
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.medinik-reviews-two .swiper-button-next {
+    right: 43%;
+}
+
+.medinik-reviews-two .swiper-button-prev {
+    left: 43%;
+}
+
+.medinik-reviews-one .swiper-container {
+    max-height: 450px;
+}
+
+.medinik-reviews-one .swiper-button-next,
+.medinik-reviews-one .swiper-container-rtl .swiper-button-prev {
+    left: 80px;
+}
+
+.medinik-reviews-one .swiper-button-prev,
+.medinik-reviews-one .swiper-container-rtl .swiper-button-next {
+    left: 0px;
+}
+
+.med-btn-shadow-blue .elementor-button {
+    box-shadow: 0px 25px 35px rgba(42, 167, 255, 0.15) !important;
+}
+
+/* Banner Style */
+.banner1-content-area {
+    height: 100%;
+
+
+}
+
+.banner1-inner-content h1 {
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin-bottom: 32px;
+}
+
+.banner1-inner-content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #77829D;
+    margin-bottom: 53px;
+}
+
+.banner1-image img {
+    width: 698px;
+    height: auto;
+}
+
+.stylish-shape-icon {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stylish-shape-icon-text {
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -15px rgba(148, 182, 206, 0.15);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 12px 16px;
+
+}
+
+.stylish-shape-icon-text i {
+    font-size: 16px;
+    padding: 10px;
+    background: #4CD080;
+    box-shadow: 0px 8px 15px rgba(76, 208, 128, 0.3);
+    border-radius: 4px;
+    margin-right: 12px;
+    color: #ffffff;
+}
+
+.stylish-shape-icon-text span {
+    font-size: 18px;
+    line-height: 150%;
+    color: #1B3C74;
+}
+
+.hotspot-testimonial figure.elementor-image-box-img img {
+    margin-top: -25px;
+}
+
+.hotspot-testimonial .elementor-image-box-content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+.service-sliding-top:hover .elementor-widget-container {
+    position: absolute;
+    top: -24px;
+    left: 24px;
+    padding: 0;
+    width: 100%;
+    z-index: 99;
+    color: #fff;
+}
+
+.service-sliding-top:hover .elementor-widget-container i,
+.service-sliding-top:hover .elementor-widget-container h5 span {
+    color: #fff;
+}
+
+.service-sliding-corner-border {
+    position: relative;
+}
+
+.service-sliding-corner-border:before {
+    content: '';
+    width: 1px;
+    height: 56px;
+    background: #91CAF2;
+    position: absolute;
+    bottom: -28px;
+    right: 0;
+    z-index: 9;
+}
+
+.service-sliding-corner-border:after {
+    content: '';
+    width: 56px;
+    height: 1px;
+    background: #91CAF2;
+    position: absolute;
+    bottom: 0;
+    right: -28px;
+    z-index: 9;
+}
+
+.about-section-over .elementor-column-wrap {
+    position: absolute;
+    width: 600px;
+    left: -137px;
+    top: 88px;
+}
+
+.icon-box-shadow .elementor-icon-box-icon span.elementor-icon {
+    box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.1);
+}
+
+.h3icon-box3 span.elementor-icon {
+    margin-top: -34px;
+    box-shadow: 0px 20px 55px -10px rgba(0, 0, 0, 0.05);
+}
+
+.stacked-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#medinik-hero-banner {
+    background: #F2FEFF;
+    position: relative;
+
+    padding: 8rem 0 2.5rem 0;
+}
+
+#medinik-hero-banner:before {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../images/page-overlay.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.medinik-hero-banner {
+    position: relative;
+    z-index: 10;
+}
+
+.bottom-smiley-one {
+    position: absolute;
+    z-index: 2;
+    bottom: 19%;
+    left: 3%;
+}
+
+.bottom-frill-one {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    left: 30%;
+}
+
+.bottom-heart-one {
+    position: absolute;
+    z-index: 2;
+    top: 18%;
+    right: 30%;
+}
+
+.bottom-sun-one {
+    position: absolute;
+    z-index: 2;
+    bottom: 12%;
+    right: 3%;
+}
+
+.bottom-capsule-one {
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 24%;
+}
+
+.logged-in.admin-bar header {
+    top: 29px;
+}
+
+.medinik-default-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.medinik-copyright {
+    background: #1B3C74;
+    height: 40px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.single-post-meta {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.single-post-meta ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.single-post-meta li {
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.single-post-meta img {
+    border-radius: 50%;
+}
+
+.sgl-left-content {
+    padding-right: 16px;
+}
+
+.sgl-right-content span {
+    width: 100%;
+    display: block;
+}
+
+.sgl-itm-name {
+    color: #77829D;
+    font-size: 18px;
+}
+
+.sgl-itm-value {
+    font-family: var(--alt-font-family);
+    font-size: 20px;
+    line-height: 1.4
+}
+
+.sgl-left-content i {
+    background: #EBF7FF;
+    color: #2AA7FF;
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    text-align: center;
+    line-height: 72px;
+    border-radius: 50%;
+    font-size: 26px;
+}
+
+.medinik-single-doctor-comment-box {
+    padding: 60px 0 120px 0;
+}
+
+/***Comment Rating Style ***/
+.comments-rating {
+    border: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.comments-rating label {
+    display: inline-block;
+}
+
+.rating-container {
+    /* remove inline-block whitespace */
+    font-size: 0;
+    /* flip the order so we can use the + and ~ combinators */
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating-container * {
+    font-size: 1.4rem;
+}
+
+.rating-container>input {
+    display: none;
+}
+
+.rating-container>input+label {
+    /* only enough room for the star */
+    font-family: 'Zeroicons-Line';
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 9999px;
+    width: 1em;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0;
+}
+
+.rating-container>input+label:before {
+    display: inline-block;
+    text-indent: -9999px;
+    content: "\2605";
+    color: #cbd5e0;
+}
+
+.rating-container>input:checked~label:before,
+.rating-container>input+label:hover~label:before,
+.rating-container>input+label:hover:before {
+    content: "\2605";
+    color: #f1951c;
+    text-shadow: 0 0 1px #333;
+}
+
+.rating-container>.star-cb-clear+label {
+    text-indent: -9999px;
+    width: .5em;
+    margin-left: -.5em;
+}
+
+.rating-container>.star-cb-clear+label:before {
+    width: .5em;
+}
+
+.rating-container:hover>input+label:before {
+    content: "\2605";
+    color: #cbd5e0;
+    text-shadow: none;
+}
+
+.rating-container:hover>input+label:hover~label:before,
+.rating-container:hover>input+label:hover:before {
+    content: "\2605";
+    color: #fd604f;
+    text-shadow: 0 0 1px #333;
+}
+
+.comment-respond .rating-container>.star-cb-clear+label,
+.comment-respond .rating-container>input+label:before {
+    text-indent: 9999px;
+}
+
+.comment-respond .rating-container>input+label {
+    text-indent: -9999px;
+}
+
+.medinik-carousel-btn-set {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.medinik-button-next,
+.medinik-button-prev {
+    top: 50%;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background: no-repeat 50%;
+    width: 64px;
+    height: 64px;
+    background: #EBF7FF;
+    color: #2AA7FF;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 26px;
+}
+
+.medinik-button-next:hover,
+.medinik-button-prev:hover {
+    background: #2AA7FF;
+    color: #fff;
+}
+
+.medinik-button-next {
+    right: -10%;
+    left: auto;
+}
+
+.medinik-button-prev {
+    left: -10%;
+    right: auto;
+}
+
+.medinik-button-prev.mdbottomarrow {
+    margin: 0;
+    top: auto;
+    bottom: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medinik-button-next.mdbottomarrow {
+    margin: 0;
+    top: auto;
+    bottom: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs-md-shadow .elementor-widget-wrap {
+    box-shadow: 0px 45px 120px -20px rgb(0 0 0 / 8%);
+
+}
+
+.comment-box-information.row {
+    margin: 0 !important;
+    width: 100%;
+}
+
+.medinik-rating-full {
+    color: #FFB200;
+}
+
+.text-gray-400,
+.social-item-stl-2 a {
+    color: #77829d;
+}
+
+.mdooter-time-set .elementor-icon-list-text {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.dffooter-time {
+    color: #2AA7FF;
+}
+
+.medi-anim_one {
+    animation: movedelement 5s linear infinite;
+}
+
+.medi-anim_two {
+    animation: movedelement2 5s linear infinite;
+}
+
+.medi-anim_three {
+    animation: movedelement3 5s linear infinite;
+}
+
+.medi-anim_four {
+    animation: alltuchtopdown 3s infinite;
+    -webkit-animation: alltuchtopdown 3s infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: 1s;
+}
+
+.medi-anim_five {
+    animation: alltuchtopdown 5s infinite;
+    -webkit-animation: alltuchtopdown 5s infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: 3s;
+}
+
+
+.medi-anim_six {
+    animation: rotation 20s linear infinite;
+}
+
+.medi-anim_seven {
+    -webkit-animation: up-down 1.5s infinite alternate;
+    animation: up-down 1.5s infinite alternate;
+}
+
+
+.medi-anim_eight {
+    -webkit-animation: left-right 1.5s infinite alternate;
+    animation: left-right 1.5s infinite alternate;
+}
+
+
+
+@-webkit-keyframes left-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes left-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translatey(0);
+    }
+
+    100% {
+        transform: translatey(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translatey(0);
+    }
+
+    100% {
+        transform: translatey(-10px);
+    }
+}
+
+@keyframes movedelement {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px);
+        transform: translate(10px, 10px);
+    }
+
+    50% {
+        -webkit-transform: translate(5px, 5px);
+        transform: translate(5px, 5px);
+    }
+
+    75% {
+        -webkit-transform: translate(10px, -5px);
+        transform: translate(10px, -5px);
+    }
+
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes movedelement2 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    25% {
+        -webkit-transform: translate(-10px, -10px);
+        transform: translate(-10px, -10px);
+    }
+
+    50% {
+        -webkit-transform: translate(-5px, -5px);
+        transform: translate(-5px, -5px);
+    }
+
+    75% {
+        -webkit-transform: translate(-10px, 5px);
+        transform: translate(-10px, 5px);
+    }
+
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes movedelement3 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    25% {
+        -webkit-transform: translate(-8px, -8px);
+        transform: translate(-8px, -8px);
+    }
+
+    50% {
+        -webkit-transform: translate(-15px, -15px);
+        transform: translate(-15px, -15px);
+    }
+
+    75% {
+        -webkit-transform: translate(-8px, 8px);
+        transform: translate(-8px, 8px);
+    }
+
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+
+@keyframes alltuchtopdown {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(-20px);
+        -moz-transform: rotateX(0deg) translateY(-20px);
+        -ms-transform: rotateX(0deg) translateY(-20px);
+        -o-transform: rotateX(0deg) translateY(-20px);
+        transform: rotateX(0deg) translateY(-20px);
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+@-webkit-keyframes alltuchtopdown {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(-20px);
+        -moz-transform: rotateX(0deg) translateY(-20px);
+        -ms-transform: rotateX(0deg) translateY(-20px);
+        -o-transform: rotateX(0deg) translateY(-20px);
+        transform: rotateX(0deg) translateY(-20px);
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+/* Animation */
+@-webkit-keyframes MedifadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes MedifadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.medianimated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.medianimated2 {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.medianimated3 {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.medianimatedFadeInUp {
+    opacity: 0
+}
+
+.medi-fadein-up-one {
+    opacity: 0;
+    animation-name: MedifadeInUp;
+    -webkit-animation-name: MedifadeInUp;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 18px;
+    right: 20px;
+    display: none;
+    background: #c8c8d7;
+    color: #282837;
+    width: 40px;
+    padding: 0;
+    font-size: 36px;
+    z-index: 999;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 25px 35px 0px rgb(42 167 255 / 15%);
+    box-shadow: 0px 25px 35px 0px rgb(42 167 255 / 15%);
+    text-align: center;
+    height: 40px;
+    line-height: 36px;
+        animation: alltuchtopdown 5s infinite;
+    -webkit-animation: alltuchtopdown 5s infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: 3s;
+}
+
+.mednik-five-from .lable-form-all {
+    width: 100%;
+}
+
+.lable-form-all-color.mednik-five-from p,
+.rows-cols-lg-2.home-page-from-one br {
+    display: none;
+}
+.medi-style-box-style3{
+    position:relative;
+     transition: .3s ease;
+}
+.medi-style-box-style3:before{
+    content:url("data:image/svg+xml,%3Csvg width='97' height='96' viewBox='0 0 97 96' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_264_3403)'%3E%3Cpath d='M3.02855 0.0089727L-0.00128174 3.00757L0.654784 3.65687L3.68462 0.658275L3.02855 0.0089727Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6991 0.00189254L11.6693 3.00049L12.3254 3.64979L15.3552 0.651195L14.6991 0.00189254Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.358 0.0066521L23.3282 3.00525L23.9842 3.65455L27.0141 0.655954L26.358 0.0066521Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0166 0.0114128L34.9868 3.01001L35.6429 3.65931L38.6727 0.660715L38.0166 0.0114128Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6874 0.00408873L46.6576 3.00269L47.3136 3.65199L50.3435 0.653391L49.6874 0.00408873Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3461 0.00884937L58.3162 3.00745L58.9723 3.65675L62.0021 0.658152L61.3461 0.00884937Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0166 0.00177372L69.9868 3.00037L70.6429 3.64967L73.6727 0.651076L73.0166 0.00177372Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6754 0.00653477L81.6456 3.00513L82.3017 3.65443L85.3315 0.655837L84.6754 0.00653477Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3341 0.0111732L93.3043 3.00977L93.9604 3.65907L96.9902 0.660475L96.3341 0.0111732Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.02376 11.5475L-0.006073 14.5461L0.649992 15.1954L3.67982 12.1968L3.02376 11.5475Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6945 11.5405L11.6647 14.5391L12.3208 15.1884L15.3506 12.1898L14.6945 11.5405Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3532 11.5451L23.3234 14.5437L23.9794 15.193L27.0093 12.1944L26.3532 11.5451Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0119 11.5499L34.982 14.5485L35.6381 15.1978L38.6679 12.1992L38.0119 11.5499Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6826 11.5428L46.6528 14.5414L47.3088 15.1907L50.3387 12.1921L49.6826 11.5428Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3413 11.5475L58.3114 14.5461L58.9675 15.1954L61.9973 12.1968L61.3413 11.5475Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.012 11.5402L69.9822 14.5388L70.6382 15.1881L73.6681 12.1895L73.012 11.5402Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6707 11.545L81.6408 14.5436L82.2969 15.1929L85.3267 12.1943L84.6707 11.545Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3293 11.5497L93.2995 14.5483L93.9556 15.1976L96.9854 12.199L96.3293 11.5497Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.03108 23.0978L0.00125122 26.0964L0.657317 26.7457L3.68715 23.7471L3.03108 23.0978Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.7017 23.0908L11.6718 26.0894L12.3279 26.7387L15.3577 23.7401L14.7017 23.0908Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3603 23.0955L23.3305 26.0941L23.9866 26.7434L27.0164 23.7448L26.3603 23.0955Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0192 23.1002L34.9893 26.0988L35.6454 26.7481L38.6752 23.7495L38.0192 23.1002Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6897 23.0931L46.6599 26.0917L47.316 26.741L50.3458 23.7424L49.6897 23.0931Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3484 23.0978L58.3186 26.0964L58.9746 26.7457L62.0045 23.7471L61.3484 23.0978Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0191 23.0908L69.9893 26.0894L70.6454 26.7387L73.6752 23.7401L73.0191 23.0908Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6778 23.0954L81.648 26.094L82.304 26.7433L85.3339 23.7447L84.6778 23.0954Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3367 23.1L93.3068 26.0986L93.9629 26.7479L96.9927 23.7493L96.3367 23.1Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.02629 34.6365L-0.00354004 37.6351L0.652527 38.2844L3.68236 35.2858L3.02629 34.6365Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6969 34.6292L11.6671 37.6278L12.3231 38.2771L15.353 35.2785L14.6969 34.6292Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3557 34.634L23.3259 37.6326L23.9819 38.2819L27.0118 35.2833L26.3557 34.634Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0144 34.6387L34.9845 37.6373L35.6406 38.2866L38.6704 35.288L38.0144 34.6387Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.685 34.6317L46.6551 37.6302L47.3112 38.2796L50.341 35.281L49.685 34.6317Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3438 34.6363L58.3139 37.6349L58.97 38.2842L61.9998 35.2856L61.3438 34.6363Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0144 34.6292L69.9845 37.6278L70.6406 38.2771L73.6704 35.2785L73.0144 34.6292Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6732 34.634L81.6434 37.6326L82.2994 38.2819L85.3293 35.2833L84.6732 34.634Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3319 34.6386L93.302 37.6372L93.9581 38.2865L96.9879 35.2879L96.3319 34.6386Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.0215 46.175L-0.0083313 49.1736L0.647736 49.8229L3.67757 46.8243L3.0215 46.175Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6921 46.1679L11.6623 49.1665L12.3183 49.8158L15.3482 46.8172L14.6921 46.1679Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3509 46.1724L23.3211 49.171L23.9771 49.8203L27.007 46.8217L26.3509 46.1724Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0096 46.1772L34.9797 49.1758L35.6358 49.8251L38.6656 46.8265L38.0096 46.1772Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6803 46.1701L46.6505 49.1687L47.3066 49.818L50.3364 46.8194L49.6803 46.1701Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.339 46.1749L58.3091 49.1735L58.9652 49.8228L61.995 46.8242L61.339 46.1749Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0096 46.1678L69.9797 49.1664L70.6358 49.8157L73.6656 46.8171L73.0096 46.1678Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6684 46.1724L81.6386 49.171L82.2946 49.8203L85.3245 46.8217L84.6684 46.1724Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3271 46.1772L93.2972 49.1758L93.9533 49.8251L96.9831 46.8265L96.3271 46.1772Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.02864 57.7253L-0.00119019 60.7239L0.654875 61.3732L3.68471 58.3746L3.02864 57.7253Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6994 57.7182L11.6696 60.7168L12.3256 61.3661L15.3555 58.3675L14.6994 57.7182Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.358 57.723L23.3282 60.7216L23.9843 61.3709L27.0141 58.3723L26.358 57.723Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0167 57.7276L34.9869 60.7262L35.6429 61.3755L38.6728 58.3769L38.0167 57.7276Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6875 57.7204L46.6576 60.719L47.3137 61.3683L50.3435 58.3697L49.6875 57.7204Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3461 57.7252L58.3163 60.7238L58.9723 61.3731L62.0022 58.3745L61.3461 57.7252Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0169 57.7181L69.9871 60.7167L70.6431 61.366L73.673 58.3674L73.0169 57.7181Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6755 57.7228L81.6457 60.7214L82.3018 61.3707L85.3316 58.3721L84.6755 57.7228Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3342 57.7274L93.3044 60.726L93.9604 61.3753L96.9903 58.3767L96.3342 57.7274Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.024 69.2639L-0.00582886 72.2625L0.650236 72.9118L3.68007 69.9132L3.024 69.2639Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6946 69.2567L11.6648 72.2552L12.3208 72.9046L15.3507 69.906L14.6946 69.2567Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3533 69.2614L23.3234 72.26L23.9795 72.9093L27.0093 69.9107L26.3533 69.2614Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0121 69.2662L34.9822 72.2648L35.6383 72.9141L38.6681 69.9155L38.0121 69.2662Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6827 69.2591L46.6528 72.2577L47.3089 72.907L50.3387 69.9084L49.6827 69.2591Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3413 69.2639L58.3115 72.2625L58.9676 72.9118L61.9974 69.9132L61.3413 69.2639Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0121 69.2565L69.9823 72.2551L70.6383 72.9044L73.6682 69.9058L73.0121 69.2565Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6708 69.2613L81.6409 72.2599L82.297 72.9092L85.3268 69.9106L84.6708 69.2613Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3296 69.266L93.2997 72.2646L93.9558 72.914L96.9856 69.9154L96.3296 69.266Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.03114 80.8141L0.00131226 83.8127L0.657377 84.462L3.68721 81.4635L3.03114 80.8141Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.7017 80.8071L11.6719 83.8057L12.328 84.455L15.3578 81.4564L14.7017 80.8071Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3606 80.8118L23.3307 83.8104L23.9868 84.4597L27.0166 81.4611L26.3606 80.8118Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0192 80.8163L34.9894 83.8149L35.6455 84.4642L38.6753 81.4656L38.0192 80.8163Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6898 80.8094L46.66 83.808L47.316 84.4573L50.3459 81.4587L49.6898 80.8094Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3486 80.814L58.3188 83.8126L58.9749 84.4619L62.0047 81.4633L61.3486 80.814Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0192 80.8069L69.9894 83.8055L70.6455 84.4548L73.6753 81.4562L73.0192 80.8069Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6779 80.8116L81.6481 83.8102L82.3041 84.4595L85.334 81.4609L84.6779 80.8116Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3367 80.8164L93.3069 83.8149L93.9629 84.4642L96.9928 81.4657L96.3367 80.8164Z' fill='%23AAD8F8'/%3E%3Cpath d='M3.02635 92.3528L-0.003479 95.3514L0.652586 96.0007L3.68242 93.0021L3.02635 92.3528Z' fill='%23AAD8F8'/%3E%3Cpath d='M14.6969 92.3455L11.6671 95.3441L12.3232 95.9934L15.353 92.9948L14.6969 92.3455Z' fill='%23AAD8F8'/%3E%3Cpath d='M26.3558 92.3503L23.326 95.3489L23.982 95.9982L27.0119 92.9996L26.3558 92.3503Z' fill='%23AAD8F8'/%3E%3Cpath d='M38.0145 92.355L34.9846 95.3536L35.6407 96.0029L38.6705 93.0043L38.0145 92.355Z' fill='%23AAD8F8'/%3E%3Cpath d='M49.6852 92.348L46.6554 95.3466L47.3114 95.9959L50.3413 92.9973L49.6852 92.348Z' fill='%23AAD8F8'/%3E%3Cpath d='M61.3438 92.3525L58.314 95.3511L58.9701 96.0004L61.9999 93.0018L61.3438 92.3525Z' fill='%23AAD8F8'/%3E%3Cpath d='M73.0145 92.3455L69.9846 95.3441L70.6407 95.9934L73.6705 92.9948L73.0145 92.3455Z' fill='%23AAD8F8'/%3E%3Cpath d='M84.6733 92.3503L81.6434 95.3489L82.2995 95.9982L85.3293 92.9996L84.6733 92.3503Z' fill='%23AAD8F8'/%3E%3Cpath d='M96.3319 92.3549L93.3021 95.3535L93.9582 96.0028L96.988 93.0042L96.3319 92.3549Z' fill='%23AAD8F8'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_264_3403'%3E%3Crect width='97' height='96' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    width:97px;
+    height:96px;
+        position: absolute;
+    bottom: -15%;
+    left: -15%;
+    z-index: 1;
+    opacity:0;
+    transition: .3s ease;
+    
+}
+.medi-style-box-style3:hover:before{
+    opacity:1;
+     bottom: -10%;
+    left: -10%;
+}
+.medi-style-box-style3 .medi-ico-hover-3:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 45px 120px -15px rgba(190, 205, 216, 0.35);
+    position:relative;
+    z-index:10;
+}
+.medi-style-box-style3:hover .medibx-one-link{
+    color:#2AA7FF;
+    text-decoration:underline;
+}
+.medi-style-box-style3 .medibx-one-link{
+    font-family: GilroyMedium;
+}
+.medi-style-box-style3 h3{
+    margin-bottom:15px
+}
+.wpcf7-submit:focus{
+    box-shadow:none !important;
+}
+.medinik-booking-form span.wpcf7-spinner{
+   display:none; 
+}
+@media (min-width:768px) {
+    .medinik3-about-position-right {
+        position: absolute;
+        left: -19%;
+    }
+
+    .service-health-2h.active .elementor-widget-wrap,
+    .service-health-2h:hover .elementor-widget-wrap {
+        background: #2AA7FF;
+        margin-top: -70px;
+        position: absolute;
+        transition: 0.3s;
+        border-radius: 8px;
+        box-shadow: 0px 25px 40px -10px rgba(42, 167, 255, 0.2);
+    }
+
+    .service-health-2h .elementor-widget-wrap .elementor-icon {
+        box-shadow: 0px 20px 35px -10px rgba(0, 0, 0, 0.05);
+    }
+
+    .service-health-2h:hover .elementor-widget-wrap:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url(../images/block-hover-bg.svg);
+        position: absolute;
+        background-repeat: no-repeat;
+        right: -72%;
+        top: -3px;
+    }
+
+    .service-health-2h.active .elementor-widget-wrap h3.elementor-icon-box-title,
+    .service-health-2h:hover .elementor-widget-wrap h3.elementor-icon-box-title {
+        color: #fff;
+    }
+
+    .service-health-2h.active .elementor-widget-wrap p.elementor-icon-box-description,
+    .service-health-2h:hover .elementor-widget-wrap p.elementor-icon-box-description {
+        color: #E0F2FF;
+    }
+
+    .service-health-2h .elementor-button-wrapper {
+        display: none;
+    }
+
+    .service-health-2h.active .elementor-button-wrapper,
+    .service-health-2h:hover .elementor-button-wrapper {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .medinik2-blog-position {
+        margin-bottom: 24px;
+    }
+
+    /* .medinik2-blog-main-container {
+        width: 90%;
+        left: 15px;
+    } */
+    .medinik2-blog-main-container {
+        position: unset;
+        width: unset;
+        border-radius: 0;
+    }
+
+    .patinets-reviews {
+        grid-template-columns: 1fr;
+    }
+
+    .medinik-reviews-two .swiper-button-next {
+        right: 38%;
+    }
+
+    .medinik-reviews-two .swiper-button-prev {
+        left: 38%;
+    }
+
+    .medinik3-Blog-all:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(27, 60, 116, 0.5) 0%, #1B3C74 100%);
+        transition: 0.3s;
+    }
+
+    .medinik3-Blog-all .medinik3-Blog-inner {
+        opacity: 1;
+        visibility: visible;
+        transition: 0.3s;
+    }
+
+    .st4-blog-single {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .medinik-reviews-two .swiper-button-next {
+        right: 30%;
+    }
+
+    .medinik-reviews-two .swiper-button-prev {
+        left: 30%;
+    }
+}
+
+@media (min-width: 1036px) {
+
+    .d-customL-none,
+    .medinik-mobile-menu.d-customL-none {
+        display: none !important;
+    }
+    .d-block.d-customL-none{
+         display: none !important;
+    }
+
+    .d-customL-block,
+    .navbar.d-customL-block {
+        display: block !important;
+    }
+}
+
+.contuct-from-home-one textarea {
+    height: 190px;
+    min-height: 100%;
+}
+
+.right-addon .glyphicon {
+    color: #000000 !important;
+
+}
+
+.medinik-four-deperment:hover .elementor-icon {
+    background-color: #4DB5FF !important;
+    fill: #FCFAFA !important;
+    color: #FCFAFA !important;
+}
+
+.medinik-four-deperment:hover h3 {
+    color: #fff !important;
+}
+
+.elementor-icon-list-icon {
+    align-self: start !important;
+}
+
+button.btn.btn-secondary.dropdown-toggle {
+    margin-left: 20px;
+}
+
+.medinik_mob_login_btn {
+    margin-left: 10px !important;
+    padding: 10px 35px;
+    background: #2AA7FF;
+    border-radius: 4px;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.menu-five .active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 71px;
+}
+
+.menu-five #medinikmenu>ul>li {
+    position: relative;
+}
+
+.home-page-from-one {
+    margin-top: -50px;
+}
+
+.contact-from-three-7 .right-addon .glyphicon {
+    color: #fff !important;
+}
+
+.contact-from-three-7 input[type="text"] {
+    background-color: #24457d;
+    border-color: #24457D;
+}
+
+.contact-from-three-7 textarea {
+    background-color: #24457d;
+    border-color: #24457D;
+}
+
+.contact-from-three-7 input[type="email"] {
+    background-color: #24457d;
+    border-color: #24457D;
+
+}
+
+.contact-from-three-7 input[type="submit"] {
+    width: 35%;
+}
+
+.margin-mednik-all {
+    margin-top: 15px;
+}
+
+.elementor-2983 .review-top-right-five {
+    position: absolute !important;
+    top: -300px !important;
+    right: 40px
+}
+
+.calender-maine-bottom input[type="date"] {
+    padding: 1px 6px 1px 26px;
+}
+
+.elementor-progress-percentage {
+    position: absolute !important;
+    right: 0px !important;
+    top: -28px !important;
+}
+
+.elementor-progress-wrapper {
+
+    overflow: inherit !important;
+}
+
+.theme-progerss-bar .elementor-progress-bar {
+    border-radius: 29px;
+}
+
+.hove-effect-icon-box:hover h3 span {
+    color: #fff;
+}
+
+.hove-effect-icon-box:hover p {
+    color: #fff !important;
+}
+
+.hove-effect-icon-box:hover a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hove-effect-icon-box:hover .elementor-icon-box-icon span {
+    background-color: #FFB200 !important;
+}
+
+/* case Stdy style Two */
+.case-stdy-st-two h3 {
+    margin-bottom: 0px;
+}
+
+.case-stdy-st-two span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.masonary-test {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: masonry;
+}
+
+.masonary-test img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+
+.med-doctor-style-four .med-4social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #51B7FF;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+.med-doctor-style-four .med-4social a:hover {
+    background: #fff;
+    color: #51B7FF;
+}
+
+.med-doctor-style-four .med-4social {
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.med-doctor-style-four:hover .best-medical-treatment-right-p,
+.med-doctor-style-four:hover a,
+.med-doctor-style-four:hover .medinik-global-h-md {
+    color: #fff;
+}
+
+.med-doctor-style-four:hover .med-4social {
+    visibility: visible;
+    opacity: 1;
+}
+
+.medinik-carouse-style-four .medinik-button-prev {
+    left: -10%;
+    right: auto;
+    top: 50%;
+    position: absolute;
+}
+
+.medinik-carouse-style-four .medinik-button-next {
+    right: -10%;
+    left: auto;
+    top: 50%;
+    position: absolute;
+}
+
+/* Blog 6 Style */
+.st6-post-meta .cat-links {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #1B3C74;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.st6-post-meta .cat-links a {
+    color: #FFFFFF !important;
+}
+
+.st6-post-meta .posted-on {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #77829D;
+}
+
+.st6-blog-single {
+    background-color: #F2F6F9;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+
+.st6-blog-single .st6-post-meta i {
+    color: #1B3C74;
+    font-size: 28px;
+    margin-left: 10px;
+    vertical-align: -9px;
+    line-height: auto;
+    top: 26px;
+}
+
+.st6-post-meta {
+    padding: 0 30px;
+}
+
+.st6-blog-single .st5-post-thumb a img {
+    border-radius: 8px 8px 0px 0px !important;
+}
+
+.st6-blog-single:hover {
+    background: white;
+    box-shadow: 0px 15px 45px rgb(0 0 0 / 5%);
+
+}
+
+.medinik-pp-doctor-style-2 h3 {
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+
+.md-pp-list-2-item img {
+    border-radius: 50% !important;
+}
+
+.md-pp-list-2-item h4 {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.medink-pp-doctor-2-list {
+    margin-top: 16px;
+}
+
+.md-pp-list-2-item {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.medinik-pp-doctor-style-2 p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.medinik-pp-doctor-style-2 .best-medical-treatment-pp2-p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.medinik-pp-doctor-style-2 .med-dc-style-2-btn {
+    background: rgb(42 167 255 / 20%);
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    color: #2aa7ff;
+    transition: all .2s;
+}
+
+.medinik-pp-doctor-style-2 .med-dc-style-2-btn:hover {
+    background: #2aa7ff;
+    color: #ffffff;
+}
+
+.doctor-popular-title-style-2 span {
+    float: right;
+    opacity: .7;
+}
+
+/***********************************************************************************
+        Search
+************************************************************************************/
+/*.product-search {*/
+/*    position: relative;*/
+/*    border-radius: 4px;*/
+/*    box-shadow:0px 0px 24px 0px rgba(0, 0, 0, 0.08);*/
+/*    border:1px solid #e0e0e0;*/
+/*    background: var(--light-color);*/
+/*}*/
+.medinik-dfcanvas-body .btn-close.text-reset{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+}
+.medinik-ajax-search-bar .nice-select {
+        height: 65px;
+    line-height: 65px;
+    border-radius: 8px;
+    background: var(--sec-color);
+    color: #fff;
+    border-color: var(--sec-color);
+}
+
+.medinik-ajax-search-bar .nice-select:before {
+    content: "\EA9D";
+    font-family: "remixicon";
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.medinik-ajax-search-bar .nice-select:after {
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+.medinik-search-box {
+    display: flex;
+    position: relative;
+}
+
+.category-wrapper {
+    display: flex;
+    align-self: center;
+    font-size: 16px;
+}
+
+.category-wrapper i, .category-wrapper select {
+    align-self: center;
+}
+
+select.category {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.medinik-ajax-product-price ins{
+    background:transparent !important;
+}
+.medinik-search-result {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: #ffffff;
+    padding: 12px 24px;
+    border: 1px solid #e0e0e0;
+    z-index: 15;
+    transform: translateY(-1px);
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.medinik-search-result.active {
+    display: block;
+}
+
+.medinik-search-result ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    justify-content:center;
+}
+
+.medinik-search-result ul li {
+    display: block;
+    margin-bottom:30px;
+    position: relative;
+
+}
+
+.medinik-search-result ul li:last-child {
+    border-bottom: none;
+}
+
+.medinik-search-result ul li a.medinik-search-block-ajax {
+    display: flex;
+    width: 100%;
+    line-height: 20px;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border: 1px solid #f3efef;
+    transition: all 0.2s;
+}
+.medinik-ajax-category-data a{
+    margin:0 !important;
+    border:none !important;
+    display:inline-block;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.medinik-ajax-grid-search .col{
+       -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+.medinik-search-result .medinik-ajax-product-image{
+        overflow: hidden;
+}
+.medinik-search-result .medinik-ajax-product-image img {
+    max-width: 90px;
+        -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+.medinik-ajax-grid-search .col:hover img{
+        transform: scale(1.05);
+}
+
+.medinik-ajax-product-data h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.medinik-ajax-product-price span {
+    color: var(--main-text-color);
+    font-size: 18px;
+    opacity:.8;
+}
+
+.medinik-ajax-product-price del {
+    font-size: 18px;
+    opacity: .5;
+    padding-right: 10px;
+}
+
+
+.product-search select {
+    width: 100%;
+}
+
+.product-search select, .product-search input {
+    background: transparent;
+    border: none;
+}
+
+.category-wrapper select {
+    cursor: pointer;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper input {
+    padding-right: 40px !important;
+    border: 1px solid #EBEBEB;
+    background: #fff;
+    height: 55px;
+
+    width: 100%;
+}
+
+.medinik-filter-available .search-wrapper input {
+    margin-left: 15px;
+    margin-bottom:0;
+}
+
+.medinik-search-style-two .search-wrapper input {
+    padding-left: 27px !important;
+    height: 40px;
+    border: none;
+}
+
+.medinik-search-style-two .medinik-ajax-search-btn {
+    right: auto;
+    left: -18px;
+    top: -3px;
+}
+
+.medinik-search-style-two .medinik-ajax-search-btn:hover,
+.medinik-search-box .medinik-ajax-search-btn:hover {
+    background: transparent;
+}
+
+.search-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.product-search {
+    width: 100%;
+}
+
+.search-wrapper input, .search-wrapper i {
+    align-self: center;
+}
+
+.search-wrapper i {
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--sec-color);
+
+}
+
+.search-wrapper svg {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    width: 25px;
+    height: 25px;
+    fill: #bdbdbd;
+    animation: spinloading 500ms 0ms infinite normal linear;
+    transform-origin: center;
+    opacity: 0;
+    background: #fff;
+    z-index: 0;
+}
+
+.search-wrapper.loading svg {
+    opacity: 1;
+    z-index: 15;
+}
+
+.btn-close.text-reset {
+    outline: none;
+    box-shadow: none;
+}
+.custom-span-blue span{
+    color:#2AA7FF;
+}
+.wpcf7 .nice-select:after{
+    display:none !important;
+}
+.medinik-custom-dir-box-mm .elementor-image-box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.medinik-custom-dir-box-mm .elementor-image-box-content{
+    text-align:left;
+}
+.med-price-list-item img{
+    max-width:20px;
+    display:inline-block;
+    margin-right:15px;
+}
+@keyframes spinloading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.medinik-team-block-d ul.med-41social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.med-doctor-style-four1 {
+    background: #FFFFFF;
+    box-shadow: 0px 35px 45px -10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+}
+.med-st-4-1-meta h3.medinik-global-h-md a, .med-st-4-1-meta h3.medinik-global-h-md {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1B3C74;
+    margin: 20px 0;
+}
+.med-st-4-1-meta p.best-medical-treatment-right-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #77829D;
+    margin-bottom: 24px;
+}
+.medinik-team-block-d ul.med-41social li a {
+    background: #EBF7FF;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #2AA7FF;
+}
+.medinik-expert-doctor-container .medinik-team-block-d {
+    padding-top: 60px;
+}
+.main-three-demo-one img.attachment-doctor-style-four.size-doctor-style-four.wp-post-image {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 35px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin-top: -85px;
+}
+
